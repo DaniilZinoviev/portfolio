@@ -91,12 +91,12 @@ gulp.task('fonts:build', async function() {
 });
 
 gulp.task('favicon:build', async function() {
-	gulp.src('src/favicon.(svg|ico)')
+	gulp.src('src/favicon.*')
 		.pipe(gulp.dest(path.build.html));
 });
 
 gulp.task('cv:build', async function() {
-	gulp.src('src/cv.(pdf|txt)')
+	gulp.src('src/cv.*')
 		.pipe(gulp.dest(path.build.html));
 });
 

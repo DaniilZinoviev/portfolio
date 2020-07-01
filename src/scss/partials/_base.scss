@@ -2,3 +2,13 @@ body {
     min-height: 100vh; // Test
     
 }
+
+.navbar {
+    &-nav {
+        flex-direction: row;
+    }
+    .nav-item {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
