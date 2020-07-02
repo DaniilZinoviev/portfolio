@@ -3,6 +3,16 @@ $c-white: #fff;
 $c-black: #000;
 $c-gray: #2c3e50;
 $c-orange: #E87E04;
+$c-blue: #007bff;
+$c-blue-dark: #0056b3;
+
+
 
 $c-text: $c-gray;
-$c-accent: $c-orange;
+$c-accent: $c-blue;
+
+// Responsive
+$small: 576px;
+$medium: 768px;
+$large: 992px;
+$xlarge: 1200px;

@@ -15,10 +15,10 @@
     <title>Daniil Zinoviev</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -26,18 +26,29 @@
         <div class="top-head">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="d-flex h-100">
+                    <div class="col-6 col-md-4 col-lg-6">
+                        <div class="d-flex h-100 text-white">
                             <div class="logo align-self-center">
                                 dzinoviev
                             </div>
                         </div>
                     </div>
-                    <!-- /.col-md-6 -->
-        
-                    <div class="col-md-6">
+                    <!-- /.logo -->
+                    
+                    <div class="col-6 col-md-8 col-lg-6 d-md-none py-2">
+                        <div class="d-flex w-100 justify-content-end">
+                            <a href="#menu-btn" class="menu-hamburger">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /mobile nav -->
+
+                    <div class="col-md-8 col-lg-6 d-none d-md-block">
                         <nav class="navbar">
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav w-100 justify-content-between" id="menu">
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">Main</a>
                                 </li>
@@ -56,17 +67,22 @@
                             </ul>
                         </nav>
                     </div>
-                    <!-- /.col-md-6 -->
+                    <!-- /.desktop nav -->
+
                 </div>
                 <!-- /.top-header -->
             </div>
         </div>
         <!-- /.top-head -->
 
-        <div class="container text-center">
+        <div class="container text-center text-white pt-100 pb-100">
             <h1>Daniil Zinoviev</h1>
             <h2>Frontend Developer</h2>
-            <a href="cv.txt" class="download-link" download>Download CV</a>
+            <div class="d-flex justify-content-center">
+                <a href="#contact" class="btn btn-outline-primary mx-1">Contact Me</a>
+                <a href="cv.txt" class="btn btn-outline-primary mx-1 download" download>Download CV</a>
+                <a href="cv.txt" class="btn btn-outline-primary mx-1" target="_blank">View CV</a>
+            </div>
         </div>
         <!-- / header content -->
 
@@ -80,6 +96,6 @@
 
     </footer>
 
-    <script src="./js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

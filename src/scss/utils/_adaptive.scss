@@ -1,0 +1,12 @@
+// Breakpoints mixins
+@mixin bp($media) {
+    @media screen and (min-width: $media) {
+        @content;
+    }
+}
+
+@mixin bp-max($media) {
+    @media screen and (min-width: $media) {
+        @content;
+    }
+}
