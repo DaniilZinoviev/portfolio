@@ -1,3 +1,4 @@
+
 body {
     min-height: 100vh; // Test
 }
@@ -35,6 +36,9 @@ h2 {
 
 // Nav
 .navbar {
+    .close {
+        display: none;
+    }
     &-nav {
         flex-direction: row;
     }

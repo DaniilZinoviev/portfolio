@@ -17,6 +17,7 @@ header {
         background-color: $c-white;
         top: 0;
         left: 0;
+        transition: transform ease-in-out .5s, opacity ease-in-out .5s;
         &:nth-child(2) {
             top: 43%;
         }
@@ -24,5 +25,67 @@ header {
             top: auto;
             bottom: 0;
         }
+    }
+}
+.mm-ocd-opened {
+    .menu-hamburger {
+        .line {
+            &:nth-child(1) {
+                transform: translate(0, 10px) rotate(45deg);
+            }
+            &:nth-child(2) {
+                opacity: 0;
+            }
+            &:nth-child(3) {
+                transform: translate(0, -8px) rotate(-45deg);
+            }
+        }
+    }
+}
+.mm-ocd__content {
+    width: 250px;
+    @include bp($small) {
+        width: 350px;
+    }
+    .mm-spn {
+        background-image: url('../img/patterns/overlay.png'), linear-gradient(45deg, #111 10%, $c-gray 80%);
+        display: block;
+        .close {
+            background: none;
+            display: block;
+            color: $c-white;
+            cursor: pointer;
+            opacity: 0.7;
+            &:hover {
+                opacity: 1;
+            }
+        }
+        ul {
+            background: none;
+            padding: 0 35px;
+            @include bp($small) {
+                padding: 0 50px;
+            }
+            &:before {
+                display: none;
+            }
+            li {
+                &:before {
+                    display: none;
+                }
+                &:after {
+                    opacity: .5;
+                    margin-left: 0;
+                }
+                a {
+                    text-transform: uppercase;
+                    background: none;
+                    font-weight: bold;
+                    font-size: 14px;
+                    padding: 1.5em 0;
+                }
+            }
+        }
+        
     }
 }
