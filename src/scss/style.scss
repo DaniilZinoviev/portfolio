@@ -5,7 +5,7 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "../../node_modules/mmenu-light/dist/mmenu-light.css";
 // @import "../../node_modules/bootstrap/scss/bootstrap-reboot";
-
+@import "../../node_modules/magnific-popup/dist/magnific-popup.css";
 
 /**
  * Utilities
@@ -19,6 +19,7 @@
  * Main
  */
 @import "partials/base";
+@import "partials/forms";
 @import "partials/header";
 @import "partials/content";
 @import "partials/footer";

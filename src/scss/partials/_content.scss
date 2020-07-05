@@ -1,3 +1,47 @@
 section {
     border-bottom: 1px solid $c-gray-light;
 }
+
+.works-filters {
+    a {
+        color: $c-text;
+        &:hover {
+            color: $c-blue;
+        }
+        &.active {
+            color: $c-blue-dark;
+            text-decoration: underline;
+        }
+    }
+}
+
+.work {
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+    .img {
+        overflow: hidden;
+        img {
+            transition: transform ease .7s;
+        }
+        &:hover {
+            img {
+                transform: scale(1.2);
+            }
+        }
+    }
+    .links {
+        a {
+            color: $c-text;
+            text-decoration: underline;
+            &:hover {
+                color: $c-blue;
+            }
+        }
+    }
+    &-modal {
+        position: relative;
+        max-width: 90vw;
+        @include bp($large) {
+            max-width: 900px;
+        }
+    }
+}

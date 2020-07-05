@@ -31,8 +31,11 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
+    "font-awesome": "^4.7.0",
     "fontawesome": "^5.6.3",
+    "isotope-layout": "^3.0.6",
     "jquery": "^3.5.1",
+    "magnific-popup": "^1.1.0",
     "mmenu-light": "^3.0.5",
     "smooth-scroll": "^16.1.3"
   }

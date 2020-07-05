@@ -2,36 +2,7 @@ header {
     // min-height: 100vh; // Test
     background-image: url('../img/patterns/overlay.png'),
                       linear-gradient(170deg, #111 10%, $c-gray 80%);
-    // h1 {
-    //     font-size: 2.5rem;
-    //     @include bp($small) {
-    //         font-size: 3.5rem;
-    //     }
-    //     @include bp($medium) {
-    //         font-size: 4rem;
-    //     }
-    //     @include bp($large) {
-    //         font-size: 4.5rem;
-    //     }
-    //     @include bp($xlarge) {
-    //         font-size: 5rem;
-    //     }
-    // }
-    // h2 {
-    //     font-size: 1.75rem;
-    //     @include bp($small) {
-    //         font-size: 2.5rem;
-    //     }
-    //     @include bp($medium) {
-    //         font-size: 3rem;
-    //     }
-    //     @include bp($large) {
-    //         font-size: 3.5rem;
-    //     }
-    //     @include bp($xlarge) {
-    //         font-size: 4rem;
-    //     }
-    // }
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
     .top-head {
         background: transparent;
     }
@@ -45,6 +16,7 @@ header {
                               linear-gradient(170deg, #111 10%, $c-gray 80%);
             z-index: 100;
             animation: sticky .5s forwards;
+            box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
         }
     }
 }
