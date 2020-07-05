@@ -3,37 +3,6 @@ body {
     min-height: 100vh; // Test
 }
 
-h1 {
-    font-size: 2.5rem;
-    @include bp($small) {
-        font-size: 3.5rem;
-    }
-    @include bp($medium) {
-        font-size: 4rem;
-    }
-    @include bp($large) {
-        font-size: 4.5rem;
-    }
-    @include bp($xlarge) {
-        font-size: 5rem;
-    }
-}
-h2 {
-    font-size: 1.75rem;
-    @include bp($small) {
-        font-size: 2.5rem;
-    }
-    @include bp($medium) {
-        font-size: 3rem;
-    }
-    @include bp($large) {
-        font-size: 3.5rem;
-    }
-    @include bp($xlarge) {
-        font-size: 4rem;
-    }
-}
-
 // Nav
 .navbar {
     .close {

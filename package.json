@@ -32,6 +32,8 @@
   "dependencies": {
     "bootstrap": "^4.5.0",
     "fontawesome": "^5.6.3",
-    "mmenu-light": "^3.0.5"
+    "jquery": "^3.5.1",
+    "mmenu-light": "^3.0.5",
+    "smooth-scroll": "^16.1.3"
   }
 }
