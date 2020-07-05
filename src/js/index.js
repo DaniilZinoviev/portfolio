@@ -21,6 +21,8 @@
 
         initWorksIsotope();
         initModals();
+
+        sendMail();
     }
 
     function resize() {
@@ -105,6 +107,21 @@
             type: 'inline',
             midClick: true
         })
+    }
+
+    function sendMail() {
+        $.ajax('/contact.php', {
+            method: 'GET',
+            complete: function(response, status) {
+                console.log([response, status]);
+            },
+            error: function(response, status) {
+                console.log([response, status]);
+            },
+            success: function(response, status) {
+                console.log([response, status]);
+            },
+        });
     }
 
 })(jQuery);

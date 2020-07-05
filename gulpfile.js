@@ -100,6 +100,11 @@ gulp.task('cv:build', async function() {
 		.pipe(gulp.dest(path.build.html));
 });
 
+gulp.task('php:build', async function() {
+	gulp.src('src/*.php')
+		.pipe(gulp.dest(path.build.html));
+});
+
 gulp.task('browser-sync', function() {
 	browserSync(config);
 });
@@ -117,7 +122,8 @@ gulp.task('build', gulp.parallel(
 	'js:build',
     'html:build',
     'favicon:build',
-    'cv:build'
+	'cv:build',
+	'php:build'
 ));
 
 gulp.task('watch', function() {
