@@ -22,7 +22,7 @@
         initWorksIsotope();
         initModals();
 
-        sendMail();
+        // sendMail();
     }
 
     function resize() {

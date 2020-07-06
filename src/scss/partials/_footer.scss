@@ -1,0 +1,10 @@
+.site-footer {
+    background-image: url('../img/patterns/overlay.png'),
+                      linear-gradient(170deg, #111 10%, $c-gray 80%);
+    a {
+        color: $c-white;
+        &:hover {
+            color: $c-blue;
+        }
+    }
+}
