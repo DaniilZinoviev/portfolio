@@ -21,7 +21,7 @@ var path = {
 		fonts: 'dist/fonts/',
 	},
 	src: {
-		html: 'src/*.html',
+		html: 'src/*.*',
 		js: 'src/js/*.js',
 		style: 'src/scss/**/*.scss',
 		img: 'src/img/**/*.*',
@@ -90,21 +90,6 @@ gulp.task('fonts:build', async function() {
 		.pipe(gulp.dest(path.build.fonts));
 });
 
-gulp.task('favicon:build', async function() {
-	gulp.src('src/favicon.*')
-		.pipe(gulp.dest(path.build.html));
-});
-
-gulp.task('cv:build', async function() {
-	gulp.src('src/cv.*')
-		.pipe(gulp.dest(path.build.html));
-});
-
-gulp.task('php:build', async function() {
-	gulp.src('src/*.php')
-		.pipe(gulp.dest(path.build.html));
-});
-
 gulp.task('browser-sync', function() {
 	browserSync(config);
 });
@@ -120,10 +105,7 @@ gulp.task('build', gulp.parallel(
 	'image:build',
 	'style:build',
 	'js:build',
-    'html:build',
-    'favicon:build',
-	'cv:build',
-	'php:build'
+    'html:build'
 ));
 
 gulp.task('watch', function() {
