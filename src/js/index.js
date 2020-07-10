@@ -17,10 +17,9 @@
 
         initMenu();
         initMenuSmoothScroll();
-        initMenuSticky();
 
-        initWorksIsotope();
-        initModals();
+        initWorks();
+
         initParticles();
         // sendMail();
     }
@@ -125,7 +124,6 @@
     }
 
     function initParticles() {
-        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
         particlesJS('particles', {
             "particles": {
                 "number": {
@@ -235,6 +233,44 @@
                 }
             },
             "retina_detect": true
+        });
+    }
+
+    function initWorks() {
+        getWorksFromJson(function() {
+            initWorksIsotope();
+            initModals();
+        });
+    }
+
+    function getWorksFromJson(callback) {
+        var url = '/works.data.json';
+        $.ajax(url, {
+            dataType: "json",
+            error: function(response, status) {
+                console.error('An error with AJAX "getWorksFromJson" has been occured. Status code: ' + response.status, response.statusText);
+            },
+            success: function(response, status) {
+                var $mockTemplate = $('.js-work-template-container').children(),
+                    $container = $('.js-works-container');
+                for (var i = 0; i < response.length; i++) {
+                    var $template = $mockTemplate.clone(),
+                        dataItem = response[i];
+                    
+                    $template.find('.js-title').text(dataItem.title);
+                    $template.find('.js-short-description').text(dataItem.short_description);
+                    $template.find('.js-links-demo').attr('href', dataItem.links.demo);
+                    $template.find('.js-links-github').attr('href', dataItem.links.github);
+                    $template.find('.js-image').attr({
+                        'src': dataItem.image.src,
+                        'alt': dataItem.image.alt,
+                    });
+                    $container.append($template);
+                }
+                if (typeof callback === 'function') {
+                    callback(response);
+                }
+            },
         });
     }
 

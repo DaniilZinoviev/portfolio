@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Waxom Template",
+        "short_description": "October, 2018",
+        "links": {
+            "demo": "http://example.com",
+            "github": "http://example.com"
+        },
+        "image": {
+            "src": "./img/work-bg/Waxom_page.jpg",
+            "alt": "Waxom page"
+        }
+    },
+    {
+        "title": "Waxom Template",
+        "short_description": "October, 2018",
+        "links": {
+            "demo": "http://example.com",
+            "github": "http://example.com"
+        },
+        "image": {
+            "src": "./img/work-bg/Waxom_page.jpg",
+            "alt": "Waxom page"
+        }
+    },
+    {
+        "title": "Waxom Template",
+        "short_description": "October, 2018",
+        "links": {
+            "demo": "http://example.com",
+            "github": "http://example.com"
+        },
+        "image": {
+            "src": "./img/work-bg/Waxom_page.jpg",
+            "alt": "Waxom page"
+        }
+    }
+]
