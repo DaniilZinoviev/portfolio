@@ -1,10 +1,14 @@
 [
     {
         "title": "Waxom Template",
-        "short_description": "October, 2018",
+        "filter": "html",
+        "description": "",
+        "short_description": "",
+        "stack": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "date": "October, 2018",
         "links": {
-            "demo": "http://example.com",
-            "github": "http://example.com"
+            "demo": "./demos/Waxom-Template/index.html",
+            "github": "https://github.com/DaniilZinoviev/Waxom-Template"
         },
         "image": {
             "src": "./img/work-bg/Waxom_page.jpg",
@@ -12,27 +16,147 @@
         }
     },
     {
-        "title": "Waxom Template",
-        "short_description": "October, 2018",
+        "title": "Business Template",
+        "filter": "html",
+        "description": "",
+        "short_description": "",
+        "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
+        "date": "October, 2018",
         "links": {
-            "demo": "http://example.com",
-            "github": "http://example.com"
+            "demo": "./demos/Lorem-Way/index.html",
+            "github": "https://github.com/DaniilZinoviev/Lorem-Way"
         },
         "image": {
-            "src": "./img/work-bg/Waxom_page.jpg",
-            "alt": "Waxom page"
+            "src": "./img/work-bg/business-theme.jpg",
+            "alt": "Business Template"
         }
     },
     {
-        "title": "Waxom Template",
-        "short_description": "October, 2018",
+        "title": "Typing game",
+        "filter": "js",
+        "description": "<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut quaerat quidemodio non quod temporibus quibusdam, eos amet, sit eligendi tenetur omnis repellat nisi porro fugit consequuntur tempora. Nam, exercitationem? </p> <p> The project was done only from myself </p>",
+        "short_description": "",
+        "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
+        "date": "October, 2018",
         "links": {
-            "demo": "http://example.com",
-            "github": "http://example.com"
+            "demo": "./demos/Speed-Typing-Game/index.html",
+            "github": "https://github.com/DaniilZinovyev/Speed-Typing-Game"
         },
         "image": {
-            "src": "./img/work-bg/Waxom_page.jpg",
-            "alt": "Waxom page"
+            "src": "./img/work-bg/typing.jpg",
+            "alt": "Typing game"
+        }
+    },
+    {
+        "title": "Sortable table",
+        "filter": "js",
+        "description": "<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut quaerat quidemodio non quod temporibus quibusdam, eos amet, sit eligendi tenetur omnis repellat nisi porro fugit consequuntur tempora. Nam, exercitationem? </p> <p> The project was done only from myself </p>",
+        "short_description": "",
+        "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
+        "date": "October, 2018",
+        "links": {
+            "demo": "https://daniilzinoviev.github.io/demos/Sortie/index.html",
+            "github": "https://github.com/DaniilZinovyev/Sortie"
+        },
+        "image": {
+            "src": "./img/work-bg/sort.jpg",
+            "alt": "Sortable table"
+        }
+    },
+    {
+        "title": "Starnight",
+        "filter": "html",
+        "description": "<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut quaerat quidemodio non quod temporibus quibusdam, eos amet, sit eligendi tenetur omnis repellat nisi porro fugit consequuntur tempora. Nam, exercitationem? </p> <p> The project was done only from myself </p>",
+        "short_description": "",
+        "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
+        "date": "",
+        "links": {
+            "demo": "https://daniilzinoviev.github.io/demos/Sortie/index.html",
+            "github": "https://github.com/DaniilZinovyev/Sortie"
+        },
+        "image": {
+            "src": "./img/work-bg/starnight.jpg",
+            "alt": "Starnight"
+        }
+    },
+    {
+        "title": "Stopwatch",
+        "filter": "js",
+        "description": "<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut quaerat quidemodio non quod temporibus quibusdam, eos amet, sit eligendi tenetur omnis repellat nisi porro fugit consequuntur tempora. Nam, exercitationem? </p> <p> The project was done only from myself </p>",
+        "short_description": "",
+        "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
+        "date": "October, 2018",
+        "links": {
+            "demo": "https://daniilzinoviev.github.io/demos/Sortie/index.html",
+            "github": "https://github.com/DaniilZinovyev/Sortie"
+        },
+        "image": {
+            "src": "./img/work-bg/stopwatch.jpg",
+            "alt": "Stopwatch"
+        }
+    },
+    {
+        "title": "Slider (pure js)",
+        "filter": "js",
+        "description": "<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut quaerat quidemodio non quod temporibus quibusdam, eos amet, sit eligendi tenetur omnis repellat nisi porro fugit consequuntur tempora. Nam, exercitationem? </p> <p> The project was done only from myself </p>",
+        "short_description": "",
+        "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
+        "date": "October, 2018",
+        "links": {
+            "demo": "https://daniilzinoviev.github.io/demos/Sortie/index.html",
+            "github": "https://github.com/DaniilZinovyev/Sortie"
+        },
+        "image": {
+            "src": "./img/work-bg/sliderjpg.jpg",
+            "alt": "Slider"
+        }
+    },
+    {
+        "title": "Questionnaire",
+        "filter": "js",
+        "description": "<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut quaerat quidemodio non quod temporibus quibusdam, eos amet, sit eligendi tenetur omnis repellat nisi porro fugit consequuntur tempora. Nam, exercitationem? </p> <p> The project was done only from myself </p>",
+        "short_description": "",
+        "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
+        "date": "October, 2018",
+        "links": {
+            "demo": "https://daniilzinoviev.github.io/demos/Sortie/index.html",
+            "github": "https://github.com/DaniilZinovyev/Sortie"
+        },
+        "image": {
+            "src": "./img/work-bg/questions.jpg",
+            "alt": "Questionnaire"
+        }
+    },
+    {
+        "title": "Misocial",
+        "filter": "html",
+        "description": "<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut quaerat quidemodio non quod temporibus quibusdam, eos amet, sit eligendi tenetur omnis repellat nisi porro fugit consequuntur tempora. Nam, exercitationem? </p> <p> The project was done only from myself </p>",
+        "short_description": "",
+        "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
+        "date": "October, 2018",
+        "links": {
+            "demo": "https://daniilzinoviev.github.io/demos/Sortie/index.html",
+            "github": "https://github.com/DaniilZinovyev/Sortie"
+        },
+        "image": {
+            "src": "./img/work-bg/misocial.jpg",
+            "alt": "Misocial"
+        }
+    },
+    {
+        "title": "Drag'n'Drop",
+        "filter": "js",
+        "description": "<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut quaerat quidemodio non quod temporibus quibusdam, eos amet, sit eligendi tenetur omnis repellat nisi porro fugit consequuntur tempora. Nam, exercitationem? </p> <p> The project was done only from myself </p>",
+        "short_description": "",
+        "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
+        "date": "October, 2018",
+        "links": {
+            "demo": "https://daniilzinoviev.github.io/demos/Sortie/index.html",
+            "github": "https://github.com/DaniilZinovyev/Sortie"
+        },
+        "image": {
+            "src": "./img/work-bg/drag-drop.jpg",
+            "alt": "Drag'n'Drop"
         }
     }
 ]

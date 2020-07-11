@@ -89,6 +89,10 @@
             layoutMode: 'fitRows',
         });
 
+        $grid.imagesLoaded().progress( function() {
+            $grid.isotope('layout');
+        });
+
         $('#works-filters a').on('click', function(e) {
             e.preventDefault();
             // Filter
@@ -101,10 +105,36 @@
         });
     }
 
-    function initModals() {
+    function initWorksModals() {
+        // #work-modal
         $('a.popup').magnificPopup({
             type: 'inline',
-            midClick: true
+            midClick: true,
+            removalDelay: 150,
+            mainClass: 'mfp-fade',
+            callbacks: {
+                open: function() {
+                    var $modal = $(this.content),
+                        $workWrap = $(this.currItem.el).parents('.work-wrap');
+                    var title = $workWrap.find('.js-title').text(),
+                        imageSrc = $workWrap.find('.js-image').attr('src'),
+                        imageAlt = $workWrap.find('.js-image').attr('alt'),
+                        description = $workWrap.data('description'),
+                        stack = $workWrap.data('stack'),
+                        date = $workWrap.data('date');
+
+                    console.log([this, $modal, title]);
+
+                    $modal.find('.js-title').text( title );
+                    $modal.find('.js-description').html( description );
+                    $modal.find('.js-date').text( date );
+                    $modal.find('.js-stack').text( stack );
+                    $modal.find('.js-image').attr({
+                        'src': imageSrc,
+                        'alt': imageAlt
+                    });
+                }
+            }
         })
     }
 
@@ -237,9 +267,9 @@
     }
 
     function initWorks() {
-        getWorksFromJson(function() {
+        getWorksFromJson(function(response, $container) {
+            initWorksModals();
             initWorksIsotope();
-            initModals();
         });
     }
 
@@ -258,6 +288,10 @@
                         dataItem = response[i];
                     
                     $template.find('.js-title').text(dataItem.title);
+                    $template.addClass(dataItem.filter);
+                    $template.data('description', dataItem.description.replace('"', '\''));
+                    $template.data('stack', dataItem.stack.join(', '));
+                    $template.data('date', dataItem.date);
                     $template.find('.js-short-description').text(dataItem.short_description);
                     $template.find('.js-links-demo').attr('href', dataItem.links.demo);
                     $template.find('.js-links-github').attr('href', dataItem.links.github);
@@ -268,7 +302,7 @@
                     $container.append($template);
                 }
                 if (typeof callback === 'function') {
-                    callback(response);
+                    callback(response, $container);
                 }
             },
         });
