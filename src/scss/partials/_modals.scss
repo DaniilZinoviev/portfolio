@@ -26,3 +26,12 @@
         }
     }
 }
+
+.contact-modal {
+    &[data-status="error"] {
+        border-left: 10px solid red;
+    }
+    &[data-status="success"] {
+        border-left: 10px solid green;
+    }
+}

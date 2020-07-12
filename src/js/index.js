@@ -147,16 +147,33 @@
                 dataType: 'json',
                 error: function(response, status) {
                     console.error('An ajax error has been occured', [response, status]);
+                    showModal('Error', 'An unexpected error has been occured. Please check the console and try again.', 'error');
                 },
                 success: function(response, status) {
                     if (response.success) {
                         console.log(response.message);
+                        showModal('Success', response.message, 'success');
                     } else {
                         console.error('A server returns an error', response.message);
+                        showModal('Error', response.message, 'error');
                     }
                 },
             });
         });
+
+        function showModal(statusMessage, message, status) {
+            $('#contact-modal').attr('data-status', status);
+            $('#contact-modal .js-status').text(statusMessage);
+            $('#contact-modal .js-message').text(message);
+            $.magnificPopup.open({
+                removalDelay: 150,
+                mainClass: 'mfp-fade',
+                items: {
+                    src: '#contact-modal',
+                    type: 'inline'
+                },
+            });
+        }
     }
 
     function initParticles() {
