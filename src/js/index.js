@@ -21,7 +21,7 @@
         initWorks();
 
         initParticles();
-        // sendMail();
+        initMail();
     }
 
     function resize() {
@@ -138,18 +138,24 @@
         })
     }
 
-    function sendMail() {
-        $.ajax('/contact.php', {
-            method: 'GET',
-            complete: function(response, status) {
-                console.log([response, status]);
-            },
-            error: function(response, status) {
-                console.log([response, status]);
-            },
-            success: function(response, status) {
-                console.log([response, status]);
-            },
+    function initMail() {
+        $('#form-contact').on('submit', function(e) {
+            e.preventDefault();
+            $.ajax('../contact.php', {
+                data: $(this).serialize(),
+                method: 'POST',
+                dataType: 'json',
+                error: function(response, status) {
+                    console.error('An ajax error has been occured', [response, status]);
+                },
+                success: function(response, status) {
+                    if (response.success) {
+                        console.log(response.message);
+                    } else {
+                        console.error('A server returns an error', response.message);
+                    }
+                },
+            });
         });
     }
 

@@ -21,7 +21,7 @@ var path = {
 		fonts: 'dist/fonts/',
 	},
 	src: {
-		html: 'src/*.*',
+		html: 'src/**.*',
 		js: 'src/js/*.js',
 		style: 'src/scss/**/*.scss',
 		img: 'src/img/**/*.*',
