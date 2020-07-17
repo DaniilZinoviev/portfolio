@@ -87,6 +87,8 @@
         $grid.isotope({
             itemSelector: '.work-wrap',
             layoutMode: 'fitRows',
+            transitionDuration: '0.8s',
+            // stagger: 30
         });
 
         $grid.imagesLoaded().progress( function() {
