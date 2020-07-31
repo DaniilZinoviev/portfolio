@@ -2,6 +2,11 @@
 
 class Contact {
 
+	/**
+	 * @var number Minimal time to be on the page before submit
+	 */
+	public $minTimeOnPage = 5;
+
     /**
      * @var array
      */
@@ -18,7 +23,9 @@ class Contact {
         $email      = (string) strip_tags($request['email']);
         $message    = (string) strip_tags($request['message']);
 
-        $errors = $this->validate($name, $email, $message);
+        $honeypot = (int) isset($request['honeypot']) ? $request['honeypot'] : null;
+
+        $errors = $this->validate($name, $email, $message, $honeypot);
 
         if (!empty($errors)) {
             $this->result = [
@@ -28,7 +35,7 @@ class Contact {
             return;
         }
 
-        $result = $this->send($name, $email, $message);
+        $result = $this->send($name, $email, $message, $honeypot);
 
         if ($result) {
             $this->result = [
@@ -49,14 +56,21 @@ class Contact {
      * @param string $name
      * @param string $email
      * @param string $message
+     * @param int $honeyPot
      */
-    public function validate(string $name, string $email, string $message)
+    public function validate(string $name, string $email, string $message, int $honeypot)
     {
         $errors = [];
 
         if (! $name || ! $email || ! $message) {
             $errors[] = 'Error: not enough fields has been submitted!';
         }
+
+        
+    	if (time() < ($honeypot + $this->minTimeOnPage)) {
+    		$time = time();
+    		$errors[] = "Error: spam message detected! {$honeypot} and {$this->minTimeOnPage} is < then {$time}";
+    	}
 
         return $errors;
     }
@@ -68,11 +82,16 @@ class Contact {
      * @param string $email
      * @param string $message
      */
-    public function send(string $name, string $email, string $message)
+    public function send(string $name, string $email, string $message, int $honeypot = null)
     {
         $to      = 'danzino21@gmail.com';
         $subject = 'Contact form from the danzino.com';
-        $message = "Name: $name\n\nEmail: $email\n\nMessage:\n$message";
+        $message = "Name: $name\n\nEmail: $email\n\nMessage:\n$message\n\n\n\n";
+
+        if ($honeypot) {
+        	$message .= sprintf('(Submitted in %d seconds after page has been loaded.)', time() - $honeypot);
+        }
+
         $headers = 'From: danzino.com' . "\r\n" .
             'Reply-To: danzino.com' . "\r\n" .
             'X-Mailer: PHP/' . phpversion();

@@ -348,6 +348,7 @@
 
                 <div class="col-lg-8">
                     <form id="form-contact">
+                    		<input type="hidden" name="request[honeypot]" value="<?php echo time();?>">
                         <div class="row">
                             <div class="col-md-4">
                                 <input type="text" name="request[name]" class="form-control mb-4" placeholder="Name" required/>
