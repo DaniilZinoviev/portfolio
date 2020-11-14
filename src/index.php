@@ -8,11 +8,10 @@
 
     <!-- SEO META tags -->
     <meta name="description" content="My name is Daniil and I am frontend developer">
-    <meta name="keywords" content="Frontend, Frontend developer">
     <meta name="author" content="Daniil Zinoviev">
 
     <!-- Page title -->
-    <title>Daniil Zinoviev</title>
+    <title>Daniil Zinoviev | Web developer</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
@@ -25,13 +24,12 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172631580-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag(){
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
-
         gtag('config', 'UA-172631580-1');
     </script>
-
-
 </head>
 <body>
     <div class="particles" id="particles"></div>
@@ -96,7 +94,7 @@
             <h1>Daniil Zinoviev</h1>
             <h2>Frontend Developer</h2>
             <div class="d-flex justify-content-center">
-                <a href="#contact" class="btn btn-outline-primary mx-1">Contact Me</a>
+                <a href="#contact" class="btn btn-outline-primary mx-1" data-scroll>Contact Me</a>
                 <a href="cv.txt" class="btn btn-outline-primary mx-1 download" download>Download CV</a>
                 <a href="cv.txt" class="btn btn-outline-primary mx-1" target="_blank">View CV</a>
             </div>
