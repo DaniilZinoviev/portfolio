@@ -92,9 +92,9 @@
 
         <div class="container text-center text-white pt-100 pb-100">
             <h1>Daniil Zinoviev</h1>
-            <h2>Frontend Developer</h2>
+            <h2>Fullstack web developer</h2>
             <div class="d-flex justify-content-center">
-                <a href="#contact" class="btn btn-outline-primary mx-1" data-scroll>Contact Me</a>
+                <a href="#contact" class="btn btn-outline-primary mx-1" data-scroll>Contact</a>
                 <a href="cv.txt" class="btn btn-outline-primary mx-1 download" download>Download CV</a>
                 <a href="cv.txt" class="btn btn-outline-primary mx-1" target="_blank">View CV</a>
             </div>
@@ -122,7 +122,7 @@
                 <div class="col-md-4">
                     <h2>Skills</h3>
                     <p>
-                        My professional skills with which I can work. I have an experience both in Frontend and in Backend development.
+                        My professional skills with which I can work. I have an experience both in frontend and backend sides of web development.
                     </p>
                 </div>
                 <!-- /.col-md-4 -->
@@ -131,9 +131,17 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="mb-4">
-                                <h5>HTML/CSS programming</h5>
+                                <h5>HTML + CSS</h5>
                                 <p>
-                                    Adaptive, valid, semantic markups. I like SCSS (or SASS) and I use it with Gulp. Have an experience with SVG and CSS 3 animations.
+                                    <ul>
+                                        <li>Bootstrap (4.x, 5.x), Materialize</li>
+                                        <li>Sass (SCSS)</li>
+                                        <li>Gulp</li>
+                                        <li>SVG (animation and transformation)</li>
+                                        <li>CSS animations</li>
+                                        <li>Semantic, responsive design</li>
+                                    </ul>
+                                    <!-- Adaptive, valid, semantic markups. I like SCSS (or SASS) and I use it with Gulp. Have an experience with SVG and CSS 3 animations. -->
                                 </p>
                             </div>
                         </div>
@@ -141,9 +149,16 @@
 
                         <div class="col-md-6">
                             <div class="mb-4">
-                                <h5>JavaScript coding</h5>
+                                <h5>JavaScript</h5>
                                 <p>
-                                    Native JS (ES6+, async, AJAX), jQuery. I like TypeScript. Have an experience with Canvas API. Can write some tests with Jasmine (Karma).
+                                    <ul>
+                                        <li>Native JS (ES6+, asynchronous code, AJAX, RegEx)</li>
+                                        <li>Typescript (&#128525;)</li>
+                                        <li>DOM API (including Canvas)</li>
+                                        <li>Browser Storage APIs</li>
+                                        <li>jQuery</li>
+                                    </ul>
+                                    <!-- Native JS (ES6+, async, AJAX), jQuery. I like TypeScript. Have an experience with Canvas API. Can write some tests with Jasmine (Karma). -->
                                 </p>
                             </div>
                         </div>
@@ -151,9 +166,16 @@
 
                         <div class="col-md-6">
                             <div class="mb-4">
-                                <h5>React development</h5>
+                                <h5>React</h5>
                                 <p>
-                                    ... TBD ...
+                                    <ul>
+                                        <li>React core</li>
+                                        <li>API services, contexts</li>
+                                        <li>NextJS with SSR</li>
+                                        <li>Redux store (Thunk, ReSelect)</li>
+                                        <li>Different libraries (DnD, PropTypes, classNames)</li>
+                                        <!-- <li>Testing?</li> -->
+                                    </ul>
                                 </p>
                             </div>
                         </div>
@@ -161,9 +183,49 @@
 
                         <div class="col-md-6">
                             <div class="mb-4">
-                                <h5>PHP coding</h5>
+                                <h5>Angular</h5>
                                 <p>
-                                    Native PHP 5/7. Have an experience with WordPress, Drupal and Magento. Also I like a Laravel framework and learn it.
+                                    <ul>
+                                        <li>Angular Core</li>
+                                        <li>RxJS (Subjects, pipe functions)</li>
+                                        <li>NgRx (Core, Effects, Selectors)</li>
+                                        <li>Different libraries (ChartJS, ngSelect)</li>
+                                        <li>Testing with Jasmine and Karma</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- /.col-md-6 -->
+
+                        <div class="col-md-6">
+                            <div class="mb-4">
+                                <h5>PHP</h5>
+                                <p>
+                                    <ul>
+                                        <li>Native PHP 5.6+</li>
+                                        <li>Wordpress, Drupal</li>
+                                        <li>Magento (plugins development)</li>
+                                        <li>Composer</li>
+                                        <li>Twig templates</li>
+                                        <li>Laravel (a little bit)</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- /.col-md-6 -->
+                        <div class="col-md-6">
+                            <div class="mb-4">
+                                <h5>Additional</h5>
+                                <p>
+                                    <ul>
+                                        <li>ElasticSearch (real-world experience)</li>
+                                        <li>NodeJS server (Express, NextJS)</li>
+                                        <li>E-mail templates</li>
+                                        <li>CRM management(ClickUp, Trello, Jira)</li>
+                                        <li>Git (GitHub &#128525;, BitBucket)</li>
+                                        <li>Some knowledge of C# and Java</li>
+                                    </ul>
                                 </p>
                             </div>
                         </div>
@@ -191,11 +253,12 @@
                 <!-- /.col-md-4 -->
 
                 <div class="col-md-8">
-                    <h5 class="d-inline-block mr-3">Junior Developer</h5>
-                    <a href="https://webcodingstudio.com/" class="d-inline-block" target="_blank">WebCodingStudio</a>
+                    <h5 class="d-inline-block mr-3">Web developer (junior)</h5>
+                    <a href="https://webcodingstudio.com/" class="d-inline-block" target="_blank">WebCodingStudio <i class="fa fa-external-link"></i></a>
                     <p>September, 2019 - Present</p>
                     <p>
-                        Developed and optimized sites on different platforms, including WordPress, Drupal, Engaging Networks. Created some plugins for Magento. Had an experience with creating email templates.
+                        Develop and optimize sites on different platforms, including WordPress, Drupal, Engaging Networks. I've create a plugin for Magento. Had an experience with creating email templates.
+                        Had an experience of working with Angular, React (NextJS and ElasticSearch), testing frontend projects. 
                     </p>
                 </div>
                 <!-- /.col-md-8 -->
@@ -263,7 +326,7 @@
     </section>
     <!-- /.education -->
 
-    <section class="py-3" id="history">
+    <!-- <section class="py-3" id="history">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -272,7 +335,6 @@
                         My professional way in this life
                     </p>
                 </div>
-                <!-- /.col-md-4 -->
 
                 <div class="col-md-8">
                     <p>
@@ -299,12 +361,9 @@
                         For now I target to learn Canvas, creating more projects with React. I am learning SVG different animations and how to draw it (<a href="https://www.youtube.com/watch?v=rGhIfi_Y3GQ" target="_blank">example</a>). Also I have a glance in video games creation with C# (my old passion) or on the Canvas with JS (TypeScript). 
                     </p>
                 </div>
-                <!-- /.col-md-8 -->
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
-    </section>
+    </section> -->
     <!-- /.history -->
 
     <section class="py-3" id="works">
@@ -319,6 +378,15 @@
                 </a>
                 <a href="#" class="d-inline-block mr-4" data-filter=".js">
                     JavaScript
+                </a>
+                <a href="#" class="d-inline-block mr-4" data-filter=".react">
+                    React
+                </a>
+                <a href="#" class="d-inline-block mr-4" data-filter=".react">
+                    WordPress
+                </a>
+                <a href="#" class="d-inline-block mr-4" data-filter=".react">
+                    Drupal
                 </a>
             </div>
             <!-- /.btn-group -->
@@ -339,7 +407,7 @@
                 <div class="col-lg-4">
                     <h2>Contact</h2>
                     <p>
-                        You can contact with me via this form. Also you can write a letter to <a href="mailto:danzino21@gmail.com">danzino21@gmail.com</a> or call to <a href="tel:+380982103721">+38 098 210 37 21</a>
+                        You can contact with me via this form. Also you can write a letter to <a href="mailto:danzino21@gmail.com">danzino21@gmail.com</a> or call to <a href="tel:+380982103721">+38 098 210 37 21</a>.
                     </p>
                 </div>
                 <!-- /.col-md-4 -->
@@ -421,16 +489,9 @@
 
         <!-- Modal for works -->
         <div id="work-modal" class="work-modal my-5 mx-auto p-4 px-2 bg-white mfp-hide">
-            <h2 class="js-title">Waxom template</h2>
+            <h2 class="js-title"></h2>
             
-            <div class="js-description description">
-                <!-- <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut quaerat quidem odio non quod temporibus quibusdam, eos amet, sit eligendi tenetur omnis repellat nisi porro fugit consequuntur tempora. Nam, exercitationem?
-                </p>
-                <p>
-                    The project was done only from myself
-                </p> -->
-            </div>
+            <div class="js-description description"></div>
             
             <div class="row">
                 <div class="col-md-2">
@@ -458,7 +519,7 @@
         <!-- Modal for Contact form -->
         <div id="contact-modal" class="contact-modal col-sm-6 col-lg-4 my-5 mx-auto p-4 px-2 bg-white mfp-hide">
             <h2 class="js-status">Success</h2>
-            <p class="js-message">lfdsafsdfjdskfj sdfsdafkhsd kjhskdhf kjshdfkjhskjhajk</p>
+            <p class="js-message">Thank you for your message! I'll try answer to you ASAP &#128521;.</p>
         </div>
     </div>
 
