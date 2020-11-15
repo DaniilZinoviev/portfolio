@@ -370,6 +370,7 @@
         <div class="container">
             <h2>Works</h2>
             <div class="works-filters py-2" id="works-filters">
+                <span class="mr-3">Filters:</span>
                 <a href="#" class="d-inline-block mr-4 active" data-filter="*">
                     All
                 </a>
@@ -382,12 +383,6 @@
                 <a href="#" class="d-inline-block mr-4" data-filter=".react">
                     React
                 </a>
-                <!-- <a href="#" class="d-inline-block mr-4" data-filter=".wordpress">
-                    WordPress
-                </a>
-                <a href="#" class="d-inline-block mr-4" data-filter=".drupal">
-                    Drupal
-                </a> -->
             </div>
             <!-- /.btn-group -->
 
