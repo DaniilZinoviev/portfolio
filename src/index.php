@@ -382,12 +382,12 @@
                 <a href="#" class="d-inline-block mr-4" data-filter=".react">
                     React
                 </a>
-                <a href="#" class="d-inline-block mr-4" data-filter=".react">
+                <!-- <a href="#" class="d-inline-block mr-4" data-filter=".wordpress">
                     WordPress
                 </a>
-                <a href="#" class="d-inline-block mr-4" data-filter=".react">
+                <a href="#" class="d-inline-block mr-4" data-filter=".drupal">
                     Drupal
-                </a>
+                </a> -->
             </div>
             <!-- /.btn-group -->
 
@@ -475,7 +475,7 @@
                         <h5 class="js-title">test</h5>
                         <p class="mb-1 js-short-description">test</p>
                         <p class="links mb-1">
-                            <a href="#" class="mr-1 js-links-demo" target="_blank">Demo</a>
+                            <a href="#" class="mr-1 js-links-demo" target="_blank">View</a>
                             <a href="#" class="js-links-github" target="_blank">GitHub</a>
                         </p>
                     </div>

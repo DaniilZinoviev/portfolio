@@ -1,11 +1,91 @@
 [
     {
+        "title": "Task manager",
+        "filter": "react",
+        "description": "<p>This is a more simpler Trello clone. You can drag-n-drop cards in to columns, there is the same data structure: boards-columns-tasks. I think, every front end developer, who learned JS, have to build such a project &#128527;, because it shows an ability of a person to learn different libraries (such as react-beatiful-dnd).</p><p>This project uses \"react-beatiful-dnd\" library for handling Drag-n-Drop functionality, local browser storage to store project's data. I also use Redux for handling state changes: CRUD operations with cards, columns. I also connect every Redux change to the local storage.</p>",
+        "short_description": "",
+        "stack": ["React", "Redux", "Local storage", "React beatiful DnD", "Bootstrap 5"],
+        "date": "August 2020",
+        "links": {
+            "demo": "https://task-manager.danzino.com",
+            "github": "https://github.com/DaniilZinoviev/task-manager"
+        },
+        "image": {
+            "src": "./img/work-bg/task-manager.png",
+            "alt": "Task manager"
+        }
+    },
+    {
+        "title": "Sortable table",
+        "filter": "js",
+        "description": "<p>This is an example of custom created sorted functionality with JavaScript. Also, I tried to create my JS in a shape of a module. So, to add this functionality to another place, I'll just have to add a single JS file - this is perfect, as I think.</p><p>The type of sorting (string, number, bool) is declared on the &lt;th&gt; element. </p>",
+        "short_description": "",
+        "stack": ["JavaScript", "Bootstrap", "Sass (SCSS)"],
+        "date": "April 2020",
+        "links": {
+            "demo": "https://sorting-table.danzino.com/",
+            "github": "https://github.com/DaniilZinoviev/sortable-table"
+        },
+        "image": {
+            "src": "./img/work-bg/sortable-table.png",
+            "alt": "Sortable table"
+        }
+    },
+    {
+        "title": "Star Wars DB",
+        "filter": "react",
+        "description": "<p>There is a React based application used <a href='https://swapi.dev/' target='_blank' rel='norefferer'>Star Wars API</a> to show different stars, spaceships, persons etc.</p><p> An example of using REST API calls from JavaScript to retrieve some information from external service. Also I used Redux for handling state changes.</p>",
+        "short_description": "",
+        "stack": ["React", "Redux", "REST API", "Bootstrap", "Bootstrap Dark Theme"],
+        "date": "August 2020",
+        "links": {
+            "demo": "https://star-wars.danzino.com/",
+            "github": "https://github.com/DaniilZinoviev/star-wars-db"
+        },
+        "image": {
+            "src": "./img/work-bg/star-wars-db.png",
+            "alt": "Star Wars DB"
+        }
+    },
+    {
+        "title": "Redux store",
+        "filter": "react",
+        "description": "<p>A very simple React store with using local storage, Redux and their combination. </p>",
+        "short_description": "",
+        "stack": ["React", "Redux", "Local storage", "JavaScript"],
+        "date": "June 2020",
+        "links": {
+            "demo": "https://redux-store.danzino.com/",
+            "github": "https://github.com/DaniilZinoviev/redux-store"
+        },
+        "image": {
+            "src": "./img/work-bg/redux-store.png",
+            "alt": "Redux store"
+        }
+    },
+    {
+        "title": "Breaking Bad DB",
+        "filter": "react",
+        "description": "<p>An example of using REST API calls to external API services. I use for this example Breaking Bad API service, that is free to use.</p>",
+        "short_description": "",
+        "stack": ["React", "REST API"],
+        "date": "May 2020",
+        "links": {
+            "demo": "https://breaking-bad.danzino.com/",
+            "github": "https://github.com/DaniilZinoviev/breaking-bad-db"
+        },
+        "image": {
+            "src": "./img/work-bg/breaking-bad.png",
+            "alt": "Breaking Bad DB"
+        }
+    },
+    {
         "title": "Waxom Template",
         "filter": "html",
         "description": "<p>Fully adaptive page with some animations. This is one of my first projects and contains some bugs with animation</p>",
         "short_description": "",
         "stack": ["HTML", "CSS", "JavaScript", "jQuery", "Waypoints"],
-        "date": "October, 2018",
+        "date": "October 2018",
         "links": {
             "demo": "./demos/Waxom-Template/index.html",
             "github": "https://github.com/DaniilZinoviev/Waxom-Template"
@@ -21,7 +101,7 @@
         "description": "<p>As a Waxom - Fully adaptive page with some animations.</p>",
         "short_description": "",
         "stack": ["HTML", "CSS", "jQuery", "Animate.css", "Waypoints"],
-        "date": "December, 2018",
+        "date": "December 2018",
         "links": {
             "demo": "./demos/Lorem-Way/index.html",
             "github": "https://github.com/DaniilZinoviev/Lorem-Way"
@@ -37,7 +117,7 @@
         "description": "<p>This is a game for training your typing skills. The idea was found on the Traversy Media channel on Youtube </p>",
         "short_description": "",
         "stack": ["Bootstrap", "JavaScript"],
-        "date": "March, 2019",
+        "date": "March 2019",
         "links": {
             "demo": "./demos/Speed-Typing-Game/index.html",
             "github": "https://github.com/DaniilZinovyev/Speed-Typing-Game"
@@ -45,22 +125,6 @@
         "image": {
             "src": "./img/work-bg/typing.jpg",
             "alt": "Typing game"
-        }
-    },
-    {
-        "title": "Sortable table",
-        "filter": "js",
-        "description": "",
-        "short_description": "",
-        "stack": ["HTML", "CSS","JavaScript"],
-        "date": "October, 2018",
-        "links": {
-            "demo": "./demos/Sortie/index.html",
-            "github": "https://github.com/DaniilZinovyev/Sortie"
-        },
-        "image": {
-            "src": "./img/work-bg/sort.jpg",
-            "alt": "Sortable table"
         }
     },
     {
@@ -85,7 +149,7 @@
         "description": "",
         "short_description": "",
         "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
-        "date": "October, 2018",
+        "date": "October,2018",
         "links": {
             "demo": "./demos/Stopwatch/index.html",
             "github": "https://github.com/DaniilZinoviev/Stopwatch"
@@ -101,7 +165,7 @@
         "description": "",
         "short_description": "",
         "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
-        "date": "October, 2018",
+        "date": "October 2018",
         "links": {
             "demo": "./demos/Slider/index.html",
             "github": "https://github.com/DaniilZinoviev/Slider"
@@ -117,7 +181,7 @@
         "description": "",
         "short_description": "",
         "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
-        "date": "October, 2018",
+        "date": "October 2018",
         "links": {
             "demo": "./demos/Questionnaire/index.html",
             "github": "https://github.com/DaniilZinoviev/Questionnaire"
@@ -133,7 +197,7 @@
         "description": "",
         "short_description": "",
         "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
-        "date": "October, 2018",
+        "date": "October 2018",
         "links": {
             "demo": "./demos/Misocial/index.html",
             "github": "https://github.com/DaniilZinoviev/misocial-site"
@@ -149,7 +213,7 @@
         "description": "",
         "short_description": "",
         "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
-        "date": "October, 2018",
+        "date": "October 2018",
         "links": {
             "demo": "./demos/Drag-n-Drop/index.html",
             "github": "https://github.com/DaniilZinoviev/drag-n-drop"
