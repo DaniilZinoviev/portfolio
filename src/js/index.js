@@ -141,15 +141,15 @@
     }
 
     function initMail() {
-        $('#form-contact').on('submit', function(e) {
-            e.preventDefault();
+        window.submitContactForm = function() {
+            console.log('SUBMIT to backend', $('#form-contact').serialize())
             $.ajax('../contact.php', {
-                data: $(this).serialize(),
+                data: $('#form-contact').serialize(),
                 method: 'POST',
                 dataType: 'json',
                 error: function(response, status) {
                     console.error('An ajax error has been occured', [response, status]);
-                    showModal('Error', 'An unexpected error has been occured. Please check the console and try again.', 'error');
+                    showModal('Error', 'An unexpected error has been occured. Please reload a page and try again.', 'error');
                 },
                 success: function(response, status) {
                     if (response.success) {
@@ -161,6 +161,15 @@
                     }
                 },
             });
+        }
+
+        $('#form-contact').on('submit', function(e) {
+            e.preventDefault();
+            if (window.grecaptcha) {
+                window.grecaptcha.execute();
+            } else {
+                window.submitContactForm();
+            }
         });
 
         function showModal(statusMessage, message, status) {

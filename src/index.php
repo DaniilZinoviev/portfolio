@@ -19,13 +19,6 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Google ReCaptcha -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script>
-       function onContactFormSubmit(token) {
-         document.getElementById("form-contact").submit();
-       }
-     </script>
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172631580-1"></script>
     <script>
@@ -430,7 +423,14 @@
                         <!-- /.row -->
 
                         <div class="text-right py-3">
-                            <input data-sitekey="6Lcd3OMZAAAAABRq1jOzGnfW8FzURaRaJvyFaJNe" data-callback="onContactFormSubmit" type="submit" class="g-recaptcha btn btn-primary" value="Send a message" />
+                            <div 
+                                id="recaptcha"
+                                class="g-recaptcha"
+                                data-sitekey="6Lcd3OMZAAAAABRq1jOzGnfW8FzURaRaJvyFaJNe"
+                                data-callback="submitContactForm"
+                                data-size="invisible">
+                            </div>
+                            <input type="submit" class="btn btn-primary" value="Send a message" />
                         </div>
                     </form>
                 </div>
@@ -525,6 +525,9 @@
     </div>
 
     <!-- Scripts -->
-    <script src="js/main.js"></script>
+    <script src="js/main.js" defer></script>
+
+    <!-- Google ReCaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" defer></script>
 </body>
 </html>

@@ -176,22 +176,6 @@
         }
     },
     {
-        "title": "Questionnaire",
-        "filter": "js",
-        "description": "",
-        "short_description": "",
-        "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
-        "date": "October 2018",
-        "links": {
-            "demo": "./demos/Questionnaire/index.html",
-            "github": "https://github.com/DaniilZinoviev/Questionnaire"
-        },
-        "image": {
-            "src": "./img/work-bg/questions.jpg",
-            "alt": "Questionnaire"
-        }
-    },
-    {
         "title": "Misocial",
         "filter": "html",
         "description": "",
