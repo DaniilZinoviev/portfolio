@@ -19,8 +19,14 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Google ReCaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+       function onContactFormSubmit(token) {
+         document.getElementById("form-contact").submit();
+       }
+     </script>
     <!-- Google Analytics -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172631580-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -409,7 +415,7 @@
 
                 <div class="col-lg-8">
                     <form id="form-contact">
-                    		<input type="hidden" name="request[honeypot]" value="<?php echo time();?>">
+                        <input type="hidden" name="request[honeypot]" value="<?php echo time();?>">
                         <div class="row">
                             <div class="col-md-4">
                                 <input type="text" name="request[name]" class="form-control mb-4" placeholder="Name" required/>
@@ -424,7 +430,7 @@
                         <!-- /.row -->
 
                         <div class="text-right py-3">
-                            <input type="submit" class="btn btn-primary" value="Send a message" />
+                            <input data-sitekey="6Lcd3OMZAAAAABRq1jOzGnfW8FzURaRaJvyFaJNe" data-callback="onContactFormSubmit" type="submit" class="g-recaptcha btn btn-primary" value="Send a message" />
                         </div>
                     </form>
                 </div>
