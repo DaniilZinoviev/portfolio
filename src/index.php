@@ -131,7 +131,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="mb-4">
-                                <h5>HTML + CSS</h5>
+                                <h5>HTML + CSS <i class="fab fa-html5 pl-1 fa-lg"></i></h5>
                                 <p>
                                     <ul>
                                         <li>Bootstrap (4.x, 5.x), Materialize</li>
@@ -149,7 +149,7 @@
 
                         <div class="col-md-6">
                             <div class="mb-4">
-                                <h5>JavaScript</h5>
+                                <h5>JavaScript <i class="fab fa-js-square pl-1 fa-lg"></i></h5>
                                 <p>
                                     <ul>
                                         <li>Native JS (ES6+, asynchronous code, AJAX, RegEx)</li>
@@ -166,7 +166,7 @@
 
                         <div class="col-md-6">
                             <div class="mb-4">
-                                <h5>React</h5>
+                                <h5>React <i class="fab fa-react pl-1 fa-lg"></i></h5>
                                 <p>
                                     <ul>
                                         <li>React core</li>
@@ -183,7 +183,7 @@
 
                         <div class="col-md-6">
                             <div class="mb-4">
-                                <h5>Angular</h5>
+                                <h5>Angular <i class="fab fa-angular pl-1 fa-lg"></i></h5>
                                 <p>
                                     <ul>
                                         <li>Angular Core</li>
@@ -199,7 +199,7 @@
 
                         <div class="col-md-6">
                             <div class="mb-4">
-                                <h5>PHP</h5>
+                                <h5>PHP <i class="fab fa-php pl-1 fa-lg"></i></h5>
                                 <p>
                                     <ul>
                                         <li>Native PHP 5.6+</li>
@@ -453,13 +453,13 @@
         <div class="container">
             <div class="row justify-content-center">
                 <a href="https://github.com/DaniilZinoviev" class="social-link display-4 mx-3" target="_blank">
-                    <i class="fa fa-github"></i>
+                    <i class="fab fa-github"></i>
                 </a>
                 <a href="https://vk.com/danzino" class="social-link display-4 mx-3" target="_blank">
-                    <i class="fa fa-vk"></i>
+                    <i class="fab fa-vk"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/danzino/" class="social-link display-4 mx-3" target="_blank">
-                    <i class="fa fa-linkedin"></i>
+                    <i class="fab fa-linkedin"></i>
                 </a>
             </div>
         </div>
