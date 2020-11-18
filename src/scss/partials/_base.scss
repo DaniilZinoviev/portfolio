@@ -40,10 +40,14 @@ body {
     padding-bottom: 100px;
 }
 
-// header,
-// section {
-//     animation: sticky 0.3s ease-in-out forwards;
-// }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+}
 
 /**
  * Hide for animation purposes.

@@ -9,7 +9,9 @@
     <!-- SEO META tags -->
     <meta name="description" content="My name is Daniil and I am frontend developer">
     <meta name="author" content="Daniil Zinoviev">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    
     <!-- Page title -->
     <title>Daniil Zinoviev | Web developer</title>
 
@@ -92,10 +94,9 @@
         <div class="container text-center text-white pt-100 pb-100">
             <h1>Daniil Zinoviev</h1>
             <h2>Fullstack web developer</h2>
-            <div class="d-flex justify-content-center">
-                <a href="#contact" class="btn btn-outline-light mx-1" data-scroll>Contact</a>
-                <a href="cv.pdf" class="btn btn-outline-light mx-1 download" download>Download CV</a>
-                <a href="cv.pdf" class="btn btn-outline-light mx-1" target="_blank">View CV</a>
+            <div class="d-flex justify-content-center pt-3">
+                <a href="cv.pdf" class="btn btn-outline-light mx-1 download" download>Download CV <i class="fa fa-download pl-2" aria-hidden="true"></i></a>
+                <a href="cv.pdf" class="btn btn-outline-light mx-1" target="_blank">View CV <i class="fa fa-external-link pl-2"></i></a>
             </div>
         </div>
         <!-- / header content -->
