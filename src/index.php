@@ -120,7 +120,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2>Skills</h3>
+                    <h2><i class="fa fa-tasks pr-2 text-warning" aria-hidden="true"></i> Skills</h3>
                     <p>
                         My professional skills with which I can work. I have an experience both in frontend and backend sides of web development.
                     </p>
@@ -216,7 +216,10 @@
                         <!-- /.col-md-6 -->
                         <div class="col-md-6">
                             <div class="mb-4">
-                                <h5>Additional</h5>
+                                <h5>
+                                    Additional
+                                    <i class="fa fa-cogs pl-1" aria-hidden="true"></i>
+                                </h5>
                                 <p>
                                     <ul>
                                         <li>ElasticSearch (real-world experience)</li>
@@ -245,7 +248,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2>Experience</h2>
+                    <h2><i class="fa fa-history pr-2 text-info" aria-hidden="true"></i> Experience</h2>
                     <p>
                         Where I have worked and gain a good real life coding experience
                     </p>
@@ -272,7 +275,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2>Education</h2>
+                    <h2><i class="fa fa-book pr-2 text-success" aria-hidden="true"></i> Education</h2>
                     <p>
                         All I know I learned alone with different online resources and books.
                         I try to learn something every day to keep myself growing in this quietless world.
@@ -368,7 +371,7 @@
 
     <section class="py-3" id="works">
         <div class="container">
-            <h2>Works</h2>
+            <h2><i class="fa fa-paint-brush pr-2 text-danger" aria-hidden="true"></i> Works</h2>
             <div class="works-filters py-2" id="works-filters">
                 <span class="mr-3">Filters:</span>
                 <a href="#" class="d-inline-block mr-4 active" data-filter="*">
@@ -400,7 +403,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <h2>Contact</h2>
+                    <h2><i class="fa fa-address-card pr-2 text-primary" aria-hidden="true"></i>  Contact</h2>
                     <p>
                         You can contact with me via this form. Also you can write a letter to <a href="mailto:danzino21@gmail.com">danzino21@gmail.com</a> or call to <a href="tel:+380982103721">+38 098 210 37 21</a>.
                     </p>
@@ -431,7 +434,10 @@
                                 data-callback="submitContactForm"
                                 data-size="invisible">
                             </div>
-                            <input type="submit" class="btn btn-primary" value="Send a message" />
+                            <button type="submit" class="btn btn-primary">
+                                Send a message
+                                <i class="fa fa-comment pl-2" aria-hidden="true"></i>
+                            </button>
                         </div>
                     </form>
                 </div>
