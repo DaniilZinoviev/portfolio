@@ -153,7 +153,7 @@
                                 <p>
                                     <ul>
                                         <li>Native JS (ES6+, asynchronous code, AJAX, RegEx)</li>
-                                        <li>Typescript (&#128525;)</li>
+                                        <li>Typescript <i class="fa fa-heart text-danger px-1" aria-hidden="true"></i></li>
                                         <li>DOM API (including Canvas)</li>
                                         <li>Browser Storage APIs</li>
                                         <li>jQuery</li>
@@ -226,7 +226,7 @@
                                         <li>NodeJS server (Express, NextJS)</li>
                                         <li>E-mail templates</li>
                                         <li>CRM management(ClickUp, Trello, Jira)</li>
-                                        <li>Git (GitHub &#128525;, BitBucket)</li>
+                                        <li>Git (GitHub <i class="fa fa-heart text-danger px-1" aria-hidden="true"></i>, BitBucket)</li>
                                         <li>Some knowledge of C# and Java</li>
                                     </ul>
                                 </p>
