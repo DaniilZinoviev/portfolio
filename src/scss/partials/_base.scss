@@ -39,3 +39,17 @@ body {
 .pb-100 {
     padding-bottom: 100px;
 }
+
+// header,
+// section {
+//     animation: sticky 0.3s ease-in-out forwards;
+// }
+
+/**
+ * Hide for animation purposes.
+ * There is a dynamic element before section#contact.
+ * So it should be excluded from waypoint
+ */
+section:not(#contact) {
+    opacity: 0;
+}

@@ -9,19 +9,25 @@
     var navHeight = 56;
     var isScrolling = false;
 
+    $('section').waypoint(function() {
+        console.log('Section', this)
+        $(this.element).addClass('animate__animated animate__fadeIn');
+        // $(this.element).find('h2').addClass('animate__animated animate__fadeInLeft');
+    }, {
+        offset: '90%'
+    })
+
     // Functions
     /**
      * Initial function that fires after DOM will be ready to be changed from JS
      */
     function init() {
-
         initMenu();
         initMenuSmoothScroll();
-
         initWorks();
-
         initParticles();
         initMail();
+        $('body').addClass('loaded')
     }
 
     function resize() {
