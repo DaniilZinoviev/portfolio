@@ -21,12 +21,41 @@
     }
 }
 
-.logo {
+.logo,
+.navbar {
     a {
         color: $c-white;
+        position: relative;
+        display: inline-block;
+        &:after,
+        &:before {
+            position: absolute;
+            top: 50%;
+            opacity: 0;
+            transform: translateY(-50%);
+            transition: all 300ms ease-in-out;
+        }
+        &:before {
+            content: '[';
+            left: -5px;
+        }
+        &:after {
+            content: ']';
+            right: -5px;
+        }
         text-decoration: none;
         &:hover {
-            color: $c-blue;
+            color: $c-white !important;
+            &:after,
+            &:before {
+                opacity: 1;
+            }
+            &:after {
+                right: -15px;
+            }
+            &:before {
+                left: -15px;
+            }
         }
     }
 }

@@ -93,9 +93,9 @@
             <h1>Daniil Zinoviev</h1>
             <h2>Fullstack web developer</h2>
             <div class="d-flex justify-content-center">
-                <a href="#contact" class="btn btn-outline-primary mx-1" data-scroll>Contact</a>
-                <a href="cv.pdf" class="btn btn-outline-primary mx-1 download" download>Download CV</a>
-                <a href="cv.pdf" class="btn btn-outline-primary mx-1" target="_blank">View CV</a>
+                <a href="#contact" class="btn btn-outline-light mx-1" data-scroll>Contact</a>
+                <a href="cv.pdf" class="btn btn-outline-light mx-1 download" download>Download CV</a>
+                <a href="cv.pdf" class="btn btn-outline-light mx-1" target="_blank">View CV</a>
             </div>
         </div>
         <!-- / header content -->
