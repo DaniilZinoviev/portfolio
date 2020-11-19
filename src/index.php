@@ -120,7 +120,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2><i class="fa fa-tasks pr-2 text-warning" aria-hidden="true"></i> Skills</h3>
+                    <h2><i class="fa fa-wrench pr-2" aria-hidden="true"></i> Skills</h3>
                     <p>
                         My professional skills with which I can work. I have an experience both in frontend and backend sides of web development.
                     </p>
@@ -131,7 +131,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="mb-4">
-                                <h5>HTML + CSS <i class="fab fa-html5 pl-1 fa-lg"></i></h5>
+                                <h5>HTML + CSS <i class="fab fa-html5 pl-1 fa-lg text-danger"></i></h5>
                                 <p>
                                     <ul>
                                         <li>Bootstrap (4.x, 5.x), Materialize</li>
@@ -149,7 +149,7 @@
 
                         <div class="col-md-6">
                             <div class="mb-4">
-                                <h5>JavaScript <i class="fab fa-js-square pl-1 fa-lg"></i></h5>
+                                <h5>JavaScript <i class="fab fa-js-square pl-1 fa-lg text-warning"></i></h5>
                                 <p>
                                     <ul>
                                         <li>Native JS (ES6+, asynchronous code, AJAX, RegEx)</li>
@@ -166,7 +166,7 @@
 
                         <div class="col-md-6">
                             <div class="mb-4">
-                                <h5>React <i class="fab fa-react pl-1 fa-lg"></i></h5>
+                                <h5>React <i class="fab fa-react pl-1 fa-lg text-primary"></i></h5>
                                 <p>
                                     <ul>
                                         <li>React core</li>
@@ -183,7 +183,7 @@
 
                         <div class="col-md-6">
                             <div class="mb-4">
-                                <h5>Angular <i class="fab fa-angular pl-1 fa-lg"></i></h5>
+                                <h5>Angular <i class="fab fa-angular pl-1 fa-lg text-danger"></i></h5>
                                 <p>
                                     <ul>
                                         <li>Angular Core</li>
@@ -199,7 +199,7 @@
 
                         <div class="col-md-6">
                             <div class="mb-4">
-                                <h5>PHP <i class="fab fa-php pl-1 fa-lg"></i></h5>
+                                <h5>PHP <i class="fab fa-php pl-1 fa-lg text-primary"></i></h5>
                                 <p>
                                     <ul>
                                         <li>Native PHP 5.6+</li>
@@ -403,7 +403,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <h2><i class="fa fa-address-card pr-2 text-primary" aria-hidden="true"></i>  Contact</h2>
+                    <h2><i class="fal fa-address-card pr-2 text-primary" aria-hidden="true"></i>  Contact</h2>
                     <p>
                         You can contact with me via this form. Also you can write a letter to <a href="mailto:danzino21@gmail.com">danzino21@gmail.com</a> or call to <a href="tel:+380982103721">+38 098 210 37 21</a>.
                     </p>

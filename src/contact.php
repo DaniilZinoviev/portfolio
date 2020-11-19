@@ -85,7 +85,7 @@ class Contact {
     public function send(string $name, string $email, string $message, int $honeypot = null)
     {
         $to      = 'danzino21@gmail.com';
-        $subject = 'Contact form from the danzino.com';
+        $subject = 'Contact form from the portfolio.danzino.com';
         $message = "Name: $name\n\nEmail: $email\n\nMessage:\n$message\n\n\n\n";
 
         if ($honeypot) {
