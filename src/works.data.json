@@ -16,6 +16,156 @@
         }
     },
     {
+        "title": "Summer Sailstice",
+        "filter": "drupal",
+        "description": "<p>Site build with Drupal, with a lot of content types</p>",
+        "short_description": "test",
+        "stack": ["Drupal", "Owl carousel"],
+        "date": "January 2020",
+        "links": {
+            "demo": "https://summersailstice.com/"
+        },
+        "image": {
+            "src": "./img/work-bg/summersailstice.png",
+            "alt": "Summer Sailstice"
+        }
+    },
+    {
+        "title": "RNID donations",
+        "filter": "html",
+        "description": "<p> </p>",
+        "short_description": " ",
+        "stack": ["Engaging Networks", "HTML", "CSS", "JS"],
+        "date": "December 2020",
+        "links": {
+            "demo": "https://secure.actiononhearingloss.org.uk/page/50668/donate/1"
+        },
+        "image": {
+            "src": "./img/work-bg/rnid.png",
+            "alt": "RNID donations"
+        }
+    },
+    {
+        "title": "British Lung Foundation",
+        "filter": "html",
+        "description": "<p> </p>",
+        "short_description": " ",
+        "stack": ["Engaging Networks", "HTML", "CSS", "JS"],
+        "date": "December 2020",
+        "links": {
+            "demo": "https://donate.blf.org.uk/page/65168/donate/1"
+        },
+        "image": {
+            "src": "./img/work-bg/blf.png",
+            "alt": "RNID donations"
+        }
+    },
+    {
+        "title": "Asthma subscribe",
+        "filter": "html",
+        "description": "<p> </p>",
+        "short_description": " ",
+        "stack": ["Engaging Networks", "HTML", "CSS", "JS"],
+        "date": "December 2020",
+        "links": {
+            "demo": "https://action.asthma.org.uk/page/67720/subscribe/1?mode=DEMO"
+        },
+        "image": {
+            "src": "./img/work-bg/asthma.png",
+            "alt": "RNID donations"
+        }
+    },
+    {
+        "title": "Gordon Bay Marine",
+        "filter": "drupal",
+        "description": "<p> </p>",
+        "short_description": " ",
+        "stack": ["Drupal"],
+        "date": "December 2020",
+        "links": {
+            "demo": "https://www.gordonbayboats.com/yamaha"
+        },
+        "image": {
+            "src": "./img/work-bg/yamaha.png",
+            "alt": "RNID donations"
+        }
+    },
+    {
+        "title": "Alan Alda page",
+        "filter": "html",
+        "description": "<p> </p>",
+        "short_description": " ",
+        "stack": ["HTML", "CSS", "JS", "jQuery"],
+        "date": "November 2019",
+        "links": {
+            "demo": "http://www.alanalda.com/"
+        },
+        "image": {
+            "src": "./img/work-bg/alanalda.png",
+            "alt": "Alan Alda page"
+        }
+    },
+    {
+        "title": "Dear Brand",
+        "filter": "wordpress",
+        "description": "<p> </p>",
+        "short_description": " ",
+        "stack": ["Wordpress","HTML", "CSS", "JS", "jQuery"],
+        "date": "November 2020",
+        "links": {
+            "demo": "https://www.dearbrand.be/"
+        },
+        "image": {
+            "src": "./img/work-bg/dearbrand.png",
+            "alt": "Alan Alda page"
+        }
+    },
+    {
+        "title": "Harvard GSD Alumni",
+        "filter": "wordpress",
+        "description": "<p> </p>",
+        "short_description": " ",
+        "stack": ["Wordpress","HTML", "CSS", "JS", "jQuery"],
+        "date": "March 2020",
+        "links": {
+            "demo": "https://alumni.gsd.harvard.edu/"
+        },
+        "image": {
+            "src": "./img/work-bg/harvard-gsd.png",
+            "alt": "Harvard GSD Alumni"
+        }
+    },
+    {
+        "title": "Kringlan",
+        "filter": "react",
+        "description": "<p> </p>",
+        "short_description": " ",
+        "stack": ["React"],
+        "date": "June 2020",
+        "links": {
+            "demo": "https://www.kringlan.is/"
+        },
+        "image": {
+            "src": "./img/work-bg/kringlan.png",
+            "alt": "Harvard GSD Alumni"
+        }
+    },
+    {
+        "title": "ValitorPay Payment Gateway",
+        "filter": "magento",
+        "description": "<p> </p>",
+        "short_description": "ValitorPay Payment Gateway for Magento",
+        "stack": ["Magento", "jQuery"],
+        "date": "August 2020",
+        "links": {
+            "demo": "https://marketplace.magento.com/tactica-valitorpay.html"
+        },
+        "image": {
+            "src": "./img/work-bg/valitorpay.png",
+            "alt": "ValitorPay Payment Gateway"
+        }
+    },
+    {
         "title": "Sortable table",
         "filter": "js",
         "description": "<p>This is an example of custom created sorted functionality with JavaScript. Also, I tried to create my JS in a shape of a module. So, to add this functionality to another place, I'll just have to add a single JS file - this is perfect, as I think.</p><p>The type of sorting (string, number, bool) is declared on the &lt;th&gt; element. </p>",

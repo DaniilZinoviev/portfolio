@@ -335,6 +335,7 @@
                     $template.find('.js-short-description').text(dataItem.short_description);
                     $template.find('.js-links-demo').attr('href', dataItem.links.demo);
                     $template.find('.js-links-github').attr('href', dataItem.links.github);
+                    if (! dataItem.links.github) $template.addClass('no-github');
                     $template.find('.js-image').attr({
                         'src': dataItem.image.src,
                         'alt': dataItem.image.alt,
