@@ -5,13 +5,13 @@ section {
 
 .works-filters {
     a {
-        color: $c-text;
+        // color: $c-text;
         &:hover {
-            color: $c-blue;
+            // color: $c-blue;
         }
         &.active {
-            color: $c-blue-dark;
-            text-decoration: underline;
+            // color: $c-blue-dark;
+            // text-decoration: underline;
         }
     }
 }

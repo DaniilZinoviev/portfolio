@@ -372,20 +372,22 @@
     <section class="py-3" id="works">
         <div class="container">
             <h2><i class="fa fa-paint-brush pr-2 text-danger" aria-hidden="true"></i> Works</h2>
-            <div class="works-filters py-2" id="works-filters">
-                <span class="mr-3">Filters:</span>
-                <a href="#" class="d-inline-block mr-4 active" data-filter="*">
+            <div class="works-filters py-2 mb-md-3" id="works-filters">
+                <!-- <span class="mr-3">Filters:</span> -->
+                <span class="btn-group">
+                <a href="#" class="d-inline-block btn btn-danger  active" data-filter="*">
                     All
                 </a>
-                <a href="#" class="d-inline-block mr-4" data-filter=".html">
+                <a href="#" class="d-inline-block btn btn-danger " data-filter=".html">
                     HTML
                 </a>
-                <a href="#" class="d-inline-block mr-4" data-filter=".js">
+                <a href="#" class="d-inline-block btn btn-danger " data-filter=".js">
                     JavaScript
                 </a>
-                <a href="#" class="d-inline-block mr-4" data-filter=".react">
+                <a href="#" class="d-inline-block btn btn-danger " data-filter=".react">
                     React
                 </a>
+                </span>
             </div>
             <!-- /.btn-group -->
 
