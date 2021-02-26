@@ -122,7 +122,7 @@
                 <div class="col-md-4">
                     <h2><i class="fa fa-wrench pr-2" aria-hidden="true"></i> Skills</h3>
                     <p>
-                        My professional skills with which I can work. I have an experience both in frontend and backend sides of web development.
+                        There is a list of my professional skills with which I work. I have an experience both in frontend and backend sides of web development, so I call myself a "fullstack" developer.
                     </p>
                 </div>
                 <!-- /.col-md-4 -->
@@ -134,12 +134,12 @@
                                 <h5>HTML + CSS <i class="fab fa-html5 pl-1 fa-lg text-danger"></i></h5>
                                 <p>
                                     <ul>
-                                        <li>Bootstrap (4.x, 5.x), Materialize</li>
-                                        <li>Sass (SCSS)</li>
-                                        <li>Gulp</li>
-                                        <li>SVG (animation and transformation)</li>
+                                        <li>Valid semantic responsive markup</li>
                                         <li>CSS animations</li>
-                                        <li>Semantic, responsive design</li>
+                                        <li>Bootstrap</li>
+                                        <li>Sass (SCSS)</li>
+                                        <li>Gulp, Webpack</li>
+                                        <li>SVG (animation and transformation)</li>
                                     </ul>
                                     <!-- Adaptive, valid, semantic markups. I like SCSS (or SASS) and I use it with Gulp. Have an experience with SVG and CSS 3 animations. -->
                                 </p>
@@ -172,7 +172,7 @@
                                         <li>React core</li>
                                         <li>API services, contexts</li>
                                         <li>NextJS with SSR</li>
-                                        <li>Redux store (Thunk, ReSelect)</li>
+                                        <li>Redux store (Thunk)</li>
                                         <li>Different libraries (DnD, PropTypes, classNames)</li>
                                         <!-- <li>Testing?</li> -->
                                     </ul>
@@ -256,11 +256,11 @@
                 <!-- /.col-md-4 -->
 
                 <div class="col-md-8">
-                    <h5 class="d-inline-block mr-3">Web developer (junior)</h5>
+                    <h5 class="d-inline-block mr-3">Web developer</h5>
                     <a href="https://webcodingstudio.com/" class="d-inline-block" target="_blank">WebCodingStudio <i class="fa fa-external-link"></i></a>
-                    <p>September, 2019 - Present</p>
+                    <p>September 2019 - January 2021 (1 year 4 months)</p>
                     <p>
-                        Develop and optimize sites on different platforms, including WordPress, Drupal, Engaging Networks. I've create a plugin for Magento. Had an experience with creating email templates.
+                        Develop and optimize sites on different platforms, including WordPress, Drupal, Engaging Networks. Developed a Magento payment gateway integration. Had an experience of creating email templates.
                         Had an experience of working with Angular, React (NextJS and ElasticSearch), testing frontend projects. 
                     </p>
                 </div>
@@ -288,7 +288,7 @@
                         <h5 class="d-inline-block mr-3">HTML + CSS</h5>
                         <p>June, 2018 - January, 2019</p>
                         <p>
-                            I learned with essons on the Youtube (WebDesignMaster and other), Webref.ru. Have practice with creating markups from Free PSD files.
+                            Learned with lessons on the Youtube (WebDesignMaster and other), books (Webref.ru), tutorials. Gain some practice when creating markups from Free PSD files.
                         </p>
                     </div>
                     <!-- /education item -->
@@ -306,7 +306,7 @@
                         <h5 class="d-inline-block mr-3">React</h5>
                         <p>May, 2019 - June, 2019</p>
                         <p>
-                            Official React documentation on reactjs.org and some youtube channels. At the end of June had not an opportunity to study, so learning had stopped.
+                            Official React documentation on reactjs.org and some youtube channels. At the end of June had not an opportunity to study, so my  learning stopped.
                         </p>
                     </div>
                     <!-- /education item -->
@@ -374,19 +374,28 @@
             <h2><i class="fa fa-paint-brush pr-2 text-danger" aria-hidden="true"></i> Works</h2>
             <div class="works-filters py-2 mb-md-3" id="works-filters">
                 <!-- <span class="mr-3">Filters:</span> -->
-                <span class="btn-group">
-                <a href="#" class="d-inline-block btn btn-danger  active" data-filter="*">
-                    All
-                </a>
-                <a href="#" class="d-inline-block btn btn-danger " data-filter=".html">
-                    HTML
-                </a>
-                <a href="#" class="d-inline-block btn btn-danger " data-filter=".js">
-                    JavaScript
-                </a>
-                <a href="#" class="d-inline-block btn btn-danger " data-filter=".react">
-                    React
-                </a>
+                <span class="">
+                    <a href="#" class="d-inline-block btn btn-danger  active" data-filter="*">
+                        All
+                    </a>
+                    <a href="#" class="d-inline-block btn btn-danger " data-filter=".html">
+                        HTML
+                    </a>
+                    <a href="#" class="d-inline-block btn btn-danger " data-filter=".js">
+                        JS
+                    </a>
+                    <a href="#" class="d-inline-block btn btn-danger " data-filter=".react">
+                        React
+                    </a>
+                    <a href="#" class="d-inline-block btn btn-danger " data-filter=".drupal">
+                        Drupal
+                    </a>
+                    <a href="#" class="d-inline-block btn btn-danger " data-filter=".wordpress">
+                        Wordpress
+                    </a>
+                    <a href="#" class="btn btn-danger d-inline-block" data-filter=".magento">
+                        Magento
+                    </a>
                 </span>
             </div>
             <!-- /.btn-group -->
@@ -407,7 +416,7 @@
                 <div class="col-lg-4">
                     <h2><i class="fal fa-address-card pr-2 text-primary" aria-hidden="true"></i>  Contact</h2>
                     <p>
-                        You can contact with me via this form. Also you can write a letter to <a href="mailto:danzino21@gmail.com">danzino21@gmail.com</a> or call to <a href="tel:+380982103721">+38 098 210 37 21</a>.
+                        You can contact with me via this form. Also you can write a letter to <a href="mailto:danzino21@gmail.com">danzino21@gmail.com</a> or call to <a href="tel:+79065664552">+7 (906) 566-45-52</a>.
                     </p>
                 </div>
                 <!-- /.col-md-4 -->
@@ -485,8 +494,8 @@
                         <h5 class="js-title">test</h5>
                         <p class="mb-1 js-short-description">test</p>
                         <p class="links mb-1">
-                            <a href="#" class="mr-1 js-links-demo" target="_blank">View</a>
-                            <a href="#" class="js-links-github" target="_blank">GitHub</a>
+                            <a href="#" class="mr-2 js-links-demo" target="_blank">View <i class="fas fa-sm fa-external-link-alt"></i></a>
+                            <a href="#" class="js-links-github" target="_blank">GitHub <i class="fas fa-sm fa-external-link-alt"></i></a>
                         </p>
                     </div>
                     <!-- /.description -->

@@ -1,18 +1,10 @@
 section {
     border-bottom: 1px solid $c-gray-light;
-    // position: relative;
 }
 
 .works-filters {
-    a {
-        // color: $c-text;
-        &:hover {
-            // color: $c-blue;
-        }
-        &.active {
-            // color: $c-blue-dark;
-            // text-decoration: underline;
-        }
+    a.btn {
+        margin-bottom: 0.25rem;
     }
 }
 
@@ -63,9 +55,9 @@ section {
     .links {
         a {
             color: $c-text;
-            text-decoration: underline;
             &:hover {
                 color: $c-blue;
+                text-decoration: none;
             }
         }
     }
@@ -74,6 +66,11 @@ section {
         max-width: 90vw;
         @include bp($large) {
             max-width: 900px;
+        }
+    }
+    &.no-github {
+        .js-links-github {
+            display: none;
         }
     }
 }
