@@ -1,27 +1,11 @@
 [
     {
-        "title": "Task manager",
-        "filter": "react",
-        "description": "<p>This is a more simpler Trello clone. You can drag-n-drop cards in to columns, there is the same data structure: boards-columns-tasks. I think, every front end developer, who learned JS, have to build such a project &#128527;, because it shows an ability of a person to learn different libraries (such as react-beatiful-dnd).</p><p>This project uses \"react-beatiful-dnd\" library for handling Drag-n-Drop functionality, local browser storage to store project's data. I also use Redux for handling state changes: CRUD operations with cards, columns. I also connect every Redux change to the local storage.</p>",
-        "short_description": "",
-        "stack": ["React", "Redux", "Local storage", "React beatiful DnD", "Bootstrap 5"],
-        "date": "August 2020",
-        "links": {
-            "demo": "https://task-manager.danzino.com",
-            "github": "https://github.com/DaniilZinoviev/task-manager"
-        },
-        "image": {
-            "src": "./img/work-bg/task-manager.png",
-            "alt": "Task manager"
-        }
-    },
-    {
         "title": "Summer Sailstice",
         "filter": "drupal",
-        "description": "<p>Site build with Drupal, with a lot of content types</p>",
-        "short_description": "test",
-        "stack": ["Drupal", "Owl carousel"],
-        "date": "January 2020",
+        "description": "<p>There is a Drupal-based site where different boat-owners can organize to sail together - the \"Sail events\". There are about 25,000 different users and more than 5,000 different events and personal plans. Also, there are a sponsorship system with about 30-50 different sponsors, blog, news, prizes, contests etc.</p><p>I've created about all of the site with some help from my kind colleagues with a main \"Events\" map. I configured backend (content types, block structure, views, custom settings), migrated database from Drupal 7 and updated frontend (except the dots on the map). Totally, we've create 6 custom drupal plugins and 1 theme.</p><p>This project is my first real-world experience with database migration, advanced using of Drupal and maps - Google map and Leaflet. I really liked the power of command line, caching, views and template system.</p>",
+        "short_description": "Boat-owners social site",
+        "stack": ["Drupal", "Database migration", "Twig", "Composer", "SCSS", "Bootstrap", "jQuery", "Slick slider", "Leaflet/Google Map",  "Google translate"],
+        "date": "October 2020",
         "links": {
             "demo": "https://summersailstice.com/"
         },
@@ -31,12 +15,42 @@
         }
     },
     {
-        "title": "RNID donations",
+        "title": "Klaus Mäs",
+        "filter": "wordpress",
+        "description": "<p>There is a Wordpress based business website about german architectural bureau 'Klaus Mäs'. Clean and informative design with a well-described projects and answers to a commonly asked questions give a great first impression to potential clients. </p><p>The website was fully developed by me. Mockup is pixel-perfect to received Sketch design. Also, I've added some animations, transitions and preloader. Technically, I wrote just a wordpress theme from scratch (underscores basic template). Used SCSS with CLI compiling.</p> <p>I really like the design and animations. My current portfolio has the same style but with some more colors and icons and without vertical text.",
+        "short_description": "Business website",
+        "stack": ["Wordpress", "SCSS", "Bootstrap", "Slick slider", "CSS 3 animations / translations", "Google Map"],
+        "date": "September 2020",
+        "links": {
+            "demo": "https://klausmaes.de/"
+        },
+        "image": {
+            "src": "./img/work-bg/klausmaes.png",
+            "alt": "Klausmaes"
+        }
+    },
+    {
+        "title": "Access Infinity",
+        "filter": "wordpress",
+        "description": "<p>There is a Wordpress-based site for a pharma companies consulting services 'Access Infinity'. The company lets access to the markets more easier through giving different data to the client in a comfortable way. </p> <p>Site was build fully be my over a 'Uniq' theme from Envato market, with some additional SCSS styling and javascript coding. Design required a lot of attention to the details, e.g. colliding of 2 images at the home page with color changing on the collision place.</p> <p>That was the first time I worked with a WP theme from Envato market. </p>",
+        "short_description": "Business website",
+        "stack": ["Wordpress", "Uniq theme", "SCSS", "CSS 3 animations", "SVG", "Google Map"],
+        "date": "March 2020",
+        "links": {
+            "demo": "https://access-infinity.com/"
+        },
+        "image": {
+            "src": "./img/work-bg/access-infinity.png",
+            "alt": "Access Infinity"
+        }
+    },
+    {
+        "title": "RNID (AOHL)",
         "filter": "html",
-        "description": "<p> </p>",
-        "short_description": " ",
-        "stack": ["Engaging Networks", "HTML", "CSS", "JS"],
-        "date": "December 2020",
+        "description": "<p>There is an Engaging network-based donation page. The company is also called AOHL (action on hearing loss). The page is just a donation form to collect money for treatment of hearing-loss people.</p><p>Our company has build recently similar template. So I had some basic similar template, which required new styling and some new scripts. The history widget at the left was created fully by me.</p> <p>This is a first my real-world project.</p>",
+        "short_description": "Donation page",
+        "stack": ["Engaging Networks", "HTML", "SCSS", "JS"],
+        "date": "October 2019",
         "links": {
             "demo": "https://secure.actiononhearingloss.org.uk/page/50668/donate/1"
         },
@@ -48,10 +62,10 @@
     {
         "title": "British Lung Foundation",
         "filter": "html",
-        "description": "<p> </p>",
+        "description": "<p>There is an Engaging network-based donation page. The page is just a donation form to collect money for treatment of hearing-loss people.</p><p>Our company has build recently similar template. So I had some basic similar template, which required new styling and some new scripts. </p>",
         "short_description": " ",
-        "stack": ["Engaging Networks", "HTML", "CSS", "JS"],
-        "date": "December 2020",
+        "stack": ["Engaging Networks", "HTML", "SCSS", "JS"],
+        "date": "April 2020",
         "links": {
             "demo": "https://donate.blf.org.uk/page/65168/donate/1"
         },
@@ -61,12 +75,12 @@
         }
     },
     {
-        "title": "Asthma subscribe",
+        "title": "Asthma UK",
         "filter": "html",
-        "description": "<p> </p>",
-        "short_description": " ",
-        "stack": ["Engaging Networks", "HTML", "CSS", "JS"],
-        "date": "December 2020",
+        "description": "<p>There is an Engaging network-based subscription page. The page is just a subscription form to collect user data for latest usage.</p><p>I've created the mockup from already ready basic template by adding new styling. </p>",
+        "short_description": "Subscription page",
+        "stack": ["Engaging Networks", "HTML", "SCSS", "JS"],
+        "date": "April 2020",
         "links": {
             "demo": "https://action.asthma.org.uk/page/67720/subscribe/1?mode=DEMO"
         },
@@ -78,16 +92,16 @@
     {
         "title": "Gordon Bay Marine",
         "filter": "drupal",
-        "description": "<p> </p>",
-        "short_description": " ",
-        "stack": ["Drupal"],
-        "date": "December 2020",
+        "description": "<p>There is a Drupal-based shop of one of Canada’s largest boat dealers. The company was founded in the 1960 and is targeted to provide the besu user experience.</p><p>The site wasn't build by me - I just modified and added some functionality to the shop. E.g. receiving webcamera data and update it in the user's view. Also, I've added some additional stylings and forms.</p><p>This time I was as second developer and just speed-up the development.</p>",
+        "short_description": "Shop",
+        "stack": ["Drupal", "Camera real-time", "Webform", "SCSS", "AJAX", "jQuery", "Third API"],
+        "date": "June 2020",
         "links": {
             "demo": "https://www.gordonbayboats.com/yamaha"
         },
         "image": {
             "src": "./img/work-bg/yamaha.png",
-            "alt": "RNID donations"
+            "alt": "Gordon Bay Marine"
         }
     },
     {
@@ -151,10 +165,10 @@
         }
     },
     {
-        "title": "ValitorPay Payment Gateway",
+        "title": "ValitorPay",
         "filter": "magento",
         "description": "<p> </p>",
-        "short_description": "ValitorPay Payment Gateway for Magento",
+        "short_description": "A payment gateway on Magento",
         "stack": ["Magento", "jQuery"],
         "date": "August 2020",
         "links": {
@@ -163,6 +177,21 @@
         "image": {
             "src": "./img/work-bg/valitorpay.png",
             "alt": "ValitorPay Payment Gateway"
+        }
+    },{
+        "title": "Task manager",
+        "filter": "react",
+        "description": "<p>This is a more simpler Trello clone. You can drag-n-drop cards in to columns, there is the same data structure: boards-columns-tasks. I think, every front end developer, who learned JS, have to build such a project &#128527;, because it shows an ability of a person to learn different libraries (such as react-beatiful-dnd).</p><p>This project uses \"react-beatiful-dnd\" library for handling Drag-n-Drop functionality, local browser storage to store project's data. I also use Redux for handling state changes: CRUD operations with cards, columns. I also connect every Redux change to the local storage.</p>",
+        "short_description": "",
+        "stack": ["React", "Redux", "Local storage", "React beatiful DnD", "Bootstrap 5"],
+        "date": "August 2020",
+        "links": {
+            "demo": "https://task-manager.danzino.com",
+            "github": "https://github.com/DaniilZinoviev/task-manager"
+        },
+        "image": {
+            "src": "./img/work-bg/task-manager.png",
+            "alt": "Task manager"
         }
     },
     {
@@ -230,22 +259,6 @@
         }
     },
     {
-        "title": "Waxom Template",
-        "filter": "html",
-        "description": "<p>Fully adaptive page with some animations. This is one of my first projects and contains some bugs with animation</p>",
-        "short_description": "",
-        "stack": ["HTML", "CSS", "JavaScript", "jQuery", "Waypoints"],
-        "date": "October 2018",
-        "links": {
-            "demo": "./demos/Waxom-Template/index.html",
-            "github": "https://github.com/DaniilZinoviev/Waxom-Template"
-        },
-        "image": {
-            "src": "./img/work-bg/Waxom_page.jpg",
-            "alt": "Waxom page"
-        }
-    },
-    {
         "title": "Business Template",
         "filter": "html",
         "description": "<p>As a Waxom - Fully adaptive page with some animations.</p>",
@@ -270,7 +283,7 @@
         "date": "March 2019",
         "links": {
             "demo": "./demos/Speed-Typing-Game/index.html",
-            "github": "https://github.com/DaniilZinovyev/Speed-Typing-Game"
+            "github": "https://github.com/DaniilZinoviev/portfolio"
         },
         "image": {
             "src": "./img/work-bg/typing.jpg",
@@ -278,83 +291,19 @@
         }
     },
     {
-        "title": "Starnight",
+        "title": "My portfolio",
         "filter": "html",
-        "description": "",
+        "description": "<p></p>",
         "short_description": "",
-        "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
-        "date": "",
+        "stack": ["HTML", "PHP", "AJAX", "Google analytics"],
+        "date": "March 2019",
         "links": {
-            "demo": "./demos/Starnight/index.html",
-            "github": "https://github.com/DaniilZinoviev/landing-starnight"
+            "demo": "/",
+            "github": "https://github.com/DaniilZinovyev/Speed-Typing-Game"
         },
         "image": {
-            "src": "./img/work-bg/starnight.jpg",
-            "alt": "Starnight"
-        }
-    },
-    {
-        "title": "Stopwatch",
-        "filter": "js",
-        "description": "",
-        "short_description": "",
-        "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
-        "date": "October,2018",
-        "links": {
-            "demo": "./demos/Stopwatch/index.html",
-            "github": "https://github.com/DaniilZinoviev/Stopwatch"
-        },
-        "image": {
-            "src": "./img/work-bg/stopwatch.jpg",
-            "alt": "Stopwatch"
-        }
-    },
-    {
-        "title": "Slider (pure js)",
-        "filter": "js",
-        "description": "",
-        "short_description": "",
-        "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
-        "date": "October 2018",
-        "links": {
-            "demo": "./demos/Slider/index.html",
-            "github": "https://github.com/DaniilZinoviev/Slider"
-        },
-        "image": {
-            "src": "./img/work-bg/sliderjpg.jpg",
-            "alt": "Slider"
-        }
-    },
-    {
-        "title": "Misocial",
-        "filter": "html",
-        "description": "",
-        "short_description": "",
-        "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
-        "date": "October 2018",
-        "links": {
-            "demo": "./demos/Misocial/index.html",
-            "github": "https://github.com/DaniilZinoviev/misocial-site"
-        },
-        "image": {
-            "src": "./img/work-bg/misocial.jpg",
-            "alt": "Misocial"
-        }
-    },
-    {
-        "title": "Drag'n'Drop",
-        "filter": "js",
-        "description": "",
-        "short_description": "",
-        "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
-        "date": "October 2018",
-        "links": {
-            "demo": "./demos/Drag-n-Drop/index.html",
-            "github": "https://github.com/DaniilZinoviev/drag-n-drop"
-        },
-        "image": {
-            "src": "./img/work-bg/drag-drop.jpg",
-            "alt": "Drag'n'Drop"
+            "src": "./img/work-bg/portfolio.png",
+            "alt": "My portfolio"
         }
     }
 ]
