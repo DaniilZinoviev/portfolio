@@ -2,7 +2,7 @@
 
 ### Screenshot:
 
-![Screenshot](https://i.imgur.com/GpMhbfN.png)
+![Screenshot](https://i.imgur.com/1UMznBl.png)
 
 ### Description:
 
