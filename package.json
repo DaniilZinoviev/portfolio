@@ -2,14 +2,12 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "New portfolio website for self use",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DaniilZinoviev/Portfolio-page3.git"
   },
-  "author": "dzinoviev",
+  "author": "DaniilZinoviev <danzino21@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DaniilZinoviev/Portfolio-page3/issues"
@@ -40,7 +38,6 @@
     "magnific-popup": "^1.1.0",
     "mmenu-light": "^3.0.7",
     "particles.js": "^2.0.0",
-    "smooth-scroll": "^16.1.3",
     "waypoints": "^4.0.1"
   }
 }
