@@ -4,7 +4,7 @@
         "filter": "drupal",
         "description": "<p>There is a Drupal-based site where different boat-owners can organize to sail together - the \"Sail events\". There are about 25,000 different users and more than 5,000 different events and personal plans. Also, there are a sponsorship system with about 30-50 different sponsors, blog, news, prizes, contests etc.</p><p>I've created about all of the site with some help from my kind colleagues with a main \"Events\" map. I configured backend (content types, block structure, views, custom settings), migrated database from Drupal 7 and updated frontend (except the dots on the map). Totally, we've create 6 custom drupal plugins and 1 theme.</p><p>This project is my first real-world experience with database migration, advanced using of Drupal and maps - Google map and Leaflet. I really liked the power of command line, caching, views and template system.</p>",
         "short_description": "Boat-owners social site",
-        "stack": ["Drupal", "Database migration", "Twig", "Composer", "SCSS", "Bootstrap", "jQuery", "Slick slider", "Leaflet/Google Map",  "Google translate"],
+        "stack": ["Drupal", "Database migration", "Pantheon", "Twig", "Composer", "SCSS", "Bootstrap", "jQuery", "Slick slider", "Leaflet/Google Map",  "Google translate", "Google ReCaptcha"],
         "date": "October 2020",
         "links": {
             "demo": "https://summersailstice.com/"
@@ -17,7 +17,7 @@
     {
         "title": "Klaus Mäs",
         "filter": "wordpress",
-        "description": "<p>There is a Wordpress based business website about german architectural bureau 'Klaus Mäs'. Clean and informative design with a well-described projects and answers to a commonly asked questions give a great first impression to potential clients. </p><p>The website was fully developed by me. Mockup is pixel-perfect to received Sketch design. Also, I've added some animations, transitions and preloader. Technically, I wrote just a wordpress theme from scratch (underscores basic template). Used SCSS with CLI compiling.</p> <p>I really like the design and animations. My current portfolio has the same style but with some more colors and icons and without vertical text.",
+        "description": "<p>There is a Wordpress based business website about german architectural bureau 'Klaus Mäs'. Clean and informative design with a well-described projects and answers to a commonly asked questions give a great first impression to potential clients. </p><p>The website was fully developed by myself. Mockup is pixel-perfect to received Sketch design. Also, I've added some animations, transitions and preloader. Technically, I wrote just a wordpress theme from scratch (underscores basic template). Used SCSS with CLI compiling.</p> <p>I really like the design and animations. My current portfolio has the same style but with some more colors and icons and without vertical text.",
         "short_description": "Business website",
         "stack": ["Wordpress", "SCSS", "Bootstrap", "Slick slider", "CSS 3 animations / translations", "Google Map"],
         "date": "September 2020",
@@ -47,7 +47,7 @@
     {
         "title": "RNID (AOHL)",
         "filter": "html",
-        "description": "<p>There is an Engaging network-based donation page. The company is also called AOHL (action on hearing loss). The page is just a donation form to collect money for treatment of hearing-loss people.</p><p>Our company has build recently similar template. So I had some basic similar template, which required new styling and some new scripts. The history widget at the left was created fully by me.</p> <p>This is a first my real-world project.</p>",
+        "description": "<p>There is an Engaging network-based donation page. The company is also called AOHL (action on hearing loss). The page is just a donation form to collect money for treatment of hearing-loss people.</p><p>Our company has build recently similar template. So I had some basic similar template, which required new styling and some new scripts. The history widget at the left was created fully by myself.</p> <p>This is a first my real-world project.</p>",
         "short_description": "Donation page",
         "stack": ["Engaging Networks", "HTML", "SCSS", "JS"],
         "date": "October 2019",
@@ -90,11 +90,26 @@
         }
     },
     {
+        "title": "CIWF",
+        "filter": "html",
+        "description": "<p>There is an Engaging network-based donation page to increase the living standard of farm animals. There are a lot of different sites for different countries with different rules for processing payments.</p> <p>I had to update an all domains payment rules - to confirm GRPD standards, remove spam and add some fields. The main problem in testing and in a quantity of different domains. I had to write well-considered JavaScript and update all the code in the BitBucket.</p> <p>The project has excellent examples of Git hooks to update the code on all of the servers. Also I like the AMD system to load specific JS on specific domains.</p>",
+        "short_description": "Donation page",
+        "stack": ["Engaging Networks", "PHP", "JavaScript", "jQuery", "AJAX", "Google ReCaptcha", "Antispam", "Multi-site project", "Internationalization"],
+        "date": "March 2019",
+        "links": {
+            "demo": "https://donate.ciwf.com/page/65772/donate/1"
+        },
+        "image": {
+            "src": "./img/work-bg/ciwf.png",
+            "alt": "CIWF"
+        }
+    },
+    {
         "title": "Gordon Bay Marine",
         "filter": "drupal",
-        "description": "<p>There is a Drupal-based shop of one of Canada’s largest boat dealers. The company was founded in the 1960 and is targeted to provide the besu user experience.</p><p>The site wasn't build by me - I just modified and added some functionality to the shop. E.g. receiving webcamera data and update it in the user's view. Also, I've added some additional stylings and forms.</p><p>This time I was as second developer and just speed-up the development.</p>",
+        "description": "<p>There is a Drupal-based shop of one of Canada’s largest boat dealers. The company was founded in the 1960 and is targeted to provide the besu user experience.</p><p>The site wasn't build by myself - I just modified and added some functionality to the shop. E.g. receiving webcamera data and update it in the user's view. Also, I've added some additional stylings and forms.</p><p>This time I was as second developer and just speed-up the development.</p>",
         "short_description": "Shop",
-        "stack": ["Drupal", "Camera real-time", "Webform", "SCSS", "AJAX", "jQuery", "Third API"],
+        "stack": ["Drupal", "Twig", "Pantheon", "Camera real-time", "Webform", "SCSS", "AJAX", "jQuery", "Third API"],
         "date": "June 2020",
         "links": {
             "demo": "https://www.gordonbayboats.com/yamaha"
@@ -107,9 +122,9 @@
     {
         "title": "Alan Alda page",
         "filter": "html",
-        "description": "<p> </p>",
-        "short_description": " ",
-        "stack": ["HTML", "CSS", "JS", "jQuery"],
+        "description": "<p>Clean and simple main page for Alan Alda - a leader of the Alan Alda communication center. The landing page should lead user to the other resources, so it have to load very fast, be clear and simple.</p> <p>The page was done fully be me. I also updated the email templates for their othes WP-based site. The work was simple and fast. The only problem I faced is the menu - we had to get rid of their last menu and add new dynamic from other resource.</p> <p>The site is very easy, but email templates I developed at first, so it took some more time.</p>",
+        "short_description": "Landing page",
+        "stack": ["HTML", "SCSS", "JavaScript", "jQuery", "Email templates"],
         "date": "November 2019",
         "links": {
             "demo": "http://www.alanalda.com/"
@@ -122,25 +137,25 @@
     {
         "title": "Dear Brand",
         "filter": "wordpress",
-        "description": "<p> </p>",
-        "short_description": " ",
-        "stack": ["Wordpress","HTML", "CSS", "JS", "jQuery"],
-        "date": "November 2020",
+        "description": "<p>There is a Wordpress-based business website for a design studio 'Dear Brand'. The studio suggest branding and marketing strategies, provide design and user-communication support.</p> <p>The task was to update the site with new design. The update was done fully by myself on the Wordpress site with Elementor plugin. Despite the Elementor a lot of things was done customly (most of sliders and complex elements). I used the SCSS preprocessor and jQuery. All sliders are using 'Owl carousel' library.</p> <p>I really like the new design. Some parts of frontend I use in the currennt portfolio, e.g. section structure (in the left heading and in the right a text).</p>",
+        "short_description": "Business website",
+        "stack": ["Wordpress", "Elementor", "PHP",  "SCSS", "jQuery", "Owl Carousel"],
+        "date": "August 2020",
         "links": {
             "demo": "https://www.dearbrand.be/"
         },
         "image": {
             "src": "./img/work-bg/dearbrand.png",
-            "alt": "Alan Alda page"
+            "alt": "Dear Brand"
         }
     },
     {
         "title": "Harvard GSD Alumni",
         "filter": "wordpress",
-        "description": "<p> </p>",
-        "short_description": " ",
-        "stack": ["Wordpress","HTML", "CSS", "JS", "jQuery"],
-        "date": "March 2020",
+        "description": "<p>There is a Wordpress-based website for Alumnies of the Harvard Graduate School of Design. They can there add some events to meet with each other, read news and donate to different GSD funds.</p> <p>The work was done by myself in the collaboration with my another colleague. I updated Wordpress core, plugins and theme from the version of 2012 year. Maybe all of frontend and backend work was done fully by myself, except the 'Giving Report' pages (link at the bottom of site). I used as usually SCSS, jQuery, PHP. There was some hard work with .htaccess and the Pantheon hosting. </p> <p></p>",
+        "short_description": "Education website",
+        "stack": ["Wordpress", "Events manager (plugin)", "Pantheon", "PHP", "SCSS", "jQuery", "Slick slider"],
+        "date": "August 2020",
         "links": {
             "demo": "https://alumni.gsd.harvard.edu/"
         },
@@ -152,24 +167,24 @@
     {
         "title": "Kringlan",
         "filter": "react",
-        "description": "<p> </p>",
-        "short_description": " ",
-        "stack": ["React"],
-        "date": "June 2020",
+        "description": "<p>There is an official React-based website for Kringlan trade center. Kringlan is the largest shopping mall in Reykjavík, Iceland. The mall offers a wide variety of over 150 shops, 23 places to eat and a range of services.</p> <p>The project consist of the server on NodeJS, database and search engine on ElasticSearch and frontend on React with NextJS (Server-Side rendering). Also, client uses Prismic as CMS.</p> <p>The task was in adding Shop functionality, updating Product details, listing, fixing some bugs and adding a donation and order functionality. All the work was done fully by myself. I had to update all of the sides of the app, including backend and frontend. I had to also update some server settings and implement a SHELL script.</p> <p>This is my first React real-world project. NodeJS and Elasticsearch are incredible fast and very useful. I really liked such development: both frontend and backend on Javascript.</p>",
+        "short_description": "React shop",
+        "stack": ["React", "NextJS (SSR)", "NodeJS (Express)", "ElasticSearch", "Prismic", "Google analytics", "SHELL", "Local storage"],
+        "date": "September 2020",
         "links": {
             "demo": "https://www.kringlan.is/"
         },
         "image": {
             "src": "./img/work-bg/kringlan.png",
-            "alt": "Harvard GSD Alumni"
+            "alt": "Kringlan"
         }
     },
     {
         "title": "ValitorPay",
         "filter": "magento",
-        "description": "<p> </p>",
+        "description": "<p>There is an integration of ValitorPay payment gateway for Magento. The integration is done to the Valitor - international payment solutions company. It is head-quartered in Iceland with a strong presence in London, UK and Copenhagen, Denmark</p> <p>The plugin (integration) was fully developed and uploaded to the Magento Marketplace by myself. I worked a lot with PHP, jQuery, OOP principles in development and Magento framework. Also I had to well test it in the development and staging server.</p> <p>At the end of development I liked the Magento. I just needed to check out OOP in PHP and take a look to dependeny injection system. The work was hard but the experience I got is worthless.</p>",
         "short_description": "A payment gateway on Magento",
-        "stack": ["Magento", "jQuery"],
+        "stack": ["Magento", "Payment Gateway API", "PHP", "OOP in PHP", "CLI commands", "Debugging", "jQuery"],
         "date": "August 2020",
         "links": {
             "demo": "https://marketplace.magento.com/tactica-valitorpay.html"
@@ -181,10 +196,10 @@
     },{
         "title": "Task manager",
         "filter": "react",
-        "description": "<p>This is a more simpler Trello clone. You can drag-n-drop cards in to columns, there is the same data structure: boards-columns-tasks. I think, every front end developer, who learned JS, have to build such a project &#128527;, because it shows an ability of a person to learn different libraries (such as react-beatiful-dnd).</p><p>This project uses \"react-beatiful-dnd\" library for handling Drag-n-Drop functionality, local browser storage to store project's data. I also use Redux for handling state changes: CRUD operations with cards, columns. I also connect every Redux change to the local storage.</p>",
-        "short_description": "",
+        "description": "<p>This is a more simpler Trello clone. You can drag-n-drop cards in to columns, there is the same data structure: boards-columns-tasks. I think, every front end developer, who learned JS, have to build such a project &#128527;, because it shows an ability of a person to learn different libraries (such as react-beatiful-dnd).</p><p>The project uses \"react-beatiful-dnd\" library for handling Drag-n-Drop functionality, local browser storage to store project's data. I also use Redux for handling state changes: CRUD operations with cards, columns. I also connect every Redux change to the local storage.</p> <p>The main purpose of the project is to have some practice.</p>",
+        "short_description": "React app",
         "stack": ["React", "Redux", "Local storage", "React beatiful DnD", "Bootstrap 5"],
-        "date": "August 2020",
+        "date": "Jule 2020",
         "links": {
             "demo": "https://task-manager.danzino.com",
             "github": "https://github.com/DaniilZinoviev/task-manager"
@@ -197,9 +212,9 @@
     {
         "title": "Sortable table",
         "filter": "js",
-        "description": "<p>This is an example of custom created sorted functionality with JavaScript. Also, I tried to create my JS in a shape of a module. So, to add this functionality to another place, I'll just have to add a single JS file - this is perfect, as I think.</p><p>The type of sorting (string, number, bool) is declared on the &lt;th&gt; element. </p>",
-        "short_description": "",
-        "stack": ["JavaScript", "Bootstrap", "Sass (SCSS)"],
+        "description": "<p>This is an example of custom created sorted functionality with JavaScript. Also, I had some practice with Bootstrap 5 and Webpack. The widget is under development yet.</p><p> I tried to create my JS in a shape of a module by adding such configuration into Webpack. So, to add this table to another place, you just need to add a single JS file to the site and update a data attribute. Data attribute specifies type of sorting (string, number, bool) and is declared on the &lt;th&gt; element.</p> <p>I also added a form to add an item to the table just for example.</p>",
+        "short_description": "Widget",
+        "stack": ["Webpack", "JavaScript", "Bootstrap", "SCSS"],
         "date": "April 2020",
         "links": {
             "demo": "https://sorting-table.danzino.com/",
@@ -213,9 +228,9 @@
     {
         "title": "Star Wars DB",
         "filter": "react",
-        "description": "<p>There is a React based application used <a href='https://swapi.dev/' target='_blank' rel='norefferer'>Star Wars API</a> to show different stars, spaceships, persons etc.</p><p> An example of using REST API calls from JavaScript to retrieve some information from external service. Also I used Redux for handling state changes.</p>",
-        "short_description": "",
-        "stack": ["React", "Redux", "REST API", "Bootstrap", "Bootstrap Dark Theme"],
+        "description": "<p>There is a React-based app, that uses <a href='https://swapi.dev/' target='_blank' rel='norefferer'>Star Wars API</a> to show different systems, spaceships, persons etc. of the very famous Star Wars universe. The main purpose of the project is to practice in usage of external APIs and in asynchronous programming.</p><p>I use REST API calls from JavaScript to retrieve some information from the external service. Also I use Redux for handling state and displaying it via React.</p>",
+        "short_description": "React app",
+        "stack": ["React", "Redux", "REST API", "Bootstrap", "Bootstrap Dark Theme", "SCSS"],
         "date": "August 2020",
         "links": {
             "demo": "https://star-wars.danzino.com/",
@@ -229,9 +244,9 @@
     {
         "title": "Redux store",
         "filter": "react",
-        "description": "<p>A very simple React store with using local storage, Redux and their combination. </p>",
-        "short_description": "",
-        "stack": ["React", "Redux", "Local storage", "JavaScript"],
+        "description": "<p>There is an example of React-based shop without database. I chose the Bootstrap light theme - it looks nice and clear.</p> <p>I use local storage with Redux to maintain user order, live updating the order table, price for each item, total price etc.</p>",
+        "short_description": "React shop",
+        "stack": ["React", "Redux", "Local storage", "JavaScript", "Bootstrap Light theme"],
         "date": "June 2020",
         "links": {
             "demo": "https://redux-store.danzino.com/",
@@ -245,8 +260,8 @@
     {
         "title": "Breaking Bad DB",
         "filter": "react",
-        "description": "<p>An example of using REST API calls to external API services. I use for this example Breaking Bad API service, that is free to use.</p>",
-        "short_description": "",
+        "description": "<p>There is a React-based app, that uses <a href='https://www.breakingbadapi.com/' target='_blank' rel='norefferer'>Breaking Bad API</a> to show different persons of the Breaking Bad TV show. The main purpose of the project is to practice in usage of external APIs and in asynchronous programming.</p><p>I use REST API calls from JavaScript to retrieve some information from the external service. This project is without Redux and caching</p>",
+        "short_description": "React app",
         "stack": ["React", "REST API"],
         "date": "May 2020",
         "links": {
@@ -259,31 +274,15 @@
         }
     },
     {
-        "title": "Business Template",
-        "filter": "html",
-        "description": "<p>As a Waxom - Fully adaptive page with some animations.</p>",
-        "short_description": "",
-        "stack": ["HTML", "CSS", "jQuery", "Animate.css", "Waypoints"],
-        "date": "December 2018",
-        "links": {
-            "demo": "./demos/Lorem-Way/index.html",
-            "github": "https://github.com/DaniilZinoviev/Lorem-Way"
-        },
-        "image": {
-            "src": "./img/work-bg/business-theme.jpg",
-            "alt": "Business Template"
-        }
-    },
-    {
         "title": "Typing game",
         "filter": "js",
-        "description": "<p>This is a game for training your typing skills. The idea was found on the Traversy Media channel on Youtube </p>",
-        "short_description": "",
+        "description": "<p>This is a game for training your typing skills.</p> <p>The project was written in the pure javascript, without libraries or frameworks.</p>",
+        "short_description": "Game",
         "stack": ["Bootstrap", "JavaScript"],
         "date": "March 2019",
         "links": {
             "demo": "./demos/Speed-Typing-Game/index.html",
-            "github": "https://github.com/DaniilZinoviev/portfolio"
+            "github": "https://github.com/DaniilZinovyev/Speed-Typing-Game"
         },
         "image": {
             "src": "./img/work-bg/typing.jpg",
@@ -293,13 +292,13 @@
     {
         "title": "My portfolio",
         "filter": "html",
-        "description": "<p></p>",
-        "short_description": "",
+        "description": "<p>Just my portfolio :)</p> <p>I don't want to use any database or frameworks, so I keep all my project's data in the 'works.data.json' file in the root of the folder. And load the file via AJAX. I could load by PHP, but it is too simple for me :) </p>",
+        "short_description": "Langing page",
         "stack": ["HTML", "PHP", "AJAX", "Google analytics"],
-        "date": "March 2019",
+        "date": "December 2020",
         "links": {
             "demo": "/",
-            "github": "https://github.com/DaniilZinovyev/Speed-Typing-Game"
+            "github": "https://github.com/DaniilZinoviev/portfolio"
         },
         "image": {
             "src": "./img/work-bg/portfolio.png",
